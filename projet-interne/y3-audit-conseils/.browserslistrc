@@ -1,0 +1,22 @@
+# Configuration des navigateurs supportés
+# Ce fichier définit les navigateurs pour lesquels le code est optimisé
+# Utilisé par Autoprefixer, Babel, et autres outils de build
+
+# Navigateurs modernes (dernières 2 versions)
+# Ces navigateurs représentent ~95%+ de la part de marché mondiale
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 11
+
+# Support mobile
+iOS >= 12
+Android >= 7
+
+# Support desktop
+Chrome >= 90
+Edge >= 90
+Firefox >= 88
+Safari >= 14
+
