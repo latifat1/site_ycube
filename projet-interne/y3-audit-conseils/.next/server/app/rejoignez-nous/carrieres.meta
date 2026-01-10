@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/rejoignez-nous/layout,_N_T_/rejoignez-nous/carrieres/layout,_N_T_/rejoignez-nous/carrieres/page,_N_T_/rejoignez-nous/carrieres"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/rejoignez-nous/carrieres/__PAGE__",
+    "/rejoignez-nous/carrieres",
+    "/rejoignez-nous",
+    "/_index",
+    "/_head"
+  ]
+}

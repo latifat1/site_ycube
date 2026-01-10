@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/contact/layout,_N_T_/contact/rendez-vous/layout,_N_T_/contact/rendez-vous/confirmation/layout,_N_T_/contact/rendez-vous/confirmation/page,_N_T_/contact/rendez-vous/confirmation"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/contact/rendez-vous/confirmation/__PAGE__",
+    "/contact/rendez-vous/confirmation",
+    "/contact/rendez-vous",
+    "/contact",
+    "/_index",
+    "/_head"
+  ]
+}

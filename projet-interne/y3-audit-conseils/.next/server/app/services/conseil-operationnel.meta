@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/conseil-operationnel/layout,_N_T_/services/conseil-operationnel/page,_N_T_/services/conseil-operationnel"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/conseil-operationnel/__PAGE__",
+    "/services/conseil-operationnel",
+    "/services",
+    "/_index",
+    "/_head"
+  ]
+}

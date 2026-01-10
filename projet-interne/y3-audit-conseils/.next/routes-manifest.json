@@ -1,1 +1,236 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/a-propos/nos-valeurs",
+      "regex": "^/a\\-propos/nos\\-valeurs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/a\\-propos/nos\\-valeurs(?:/)?$"
+    },
+    {
+      "page": "/a-propos/notre-equipe",
+      "regex": "^/a\\-propos/notre\\-equipe(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/a\\-propos/notre\\-equipe(?:/)?$"
+    },
+    {
+      "page": "/a-propos/notre-histoire",
+      "regex": "^/a\\-propos/notre\\-histoire(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/a\\-propos/notre\\-histoire(?:/)?$"
+    },
+    {
+      "page": "/actualites",
+      "regex": "^/actualites(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/actualites(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/admin-login",
+      "regex": "^/admin\\-login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin\\-login(?:/)?$"
+    },
+    {
+      "page": "/api/admin-login",
+      "regex": "^/api/admin\\-login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/admin\\-login(?:/)?$"
+    },
+    {
+      "page": "/api/application",
+      "regex": "^/api/application(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/application(?:/)?$"
+    },
+    {
+      "page": "/api/appointment",
+      "regex": "^/api/appointment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/appointment(?:/)?$"
+    },
+    {
+      "page": "/api/appointment-status",
+      "regex": "^/api/appointment\\-status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/appointment\\-status(?:/)?$"
+    },
+    {
+      "page": "/api/contact",
+      "regex": "^/api/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contact(?:/)?$"
+    },
+    {
+      "page": "/api/job-application-status",
+      "regex": "^/api/job\\-application\\-status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/job\\-application\\-status(?:/)?$"
+    },
+    {
+      "page": "/contact/rendez-vous",
+      "regex": "^/contact/rendez\\-vous(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact/rendez\\-vous(?:/)?$"
+    },
+    {
+      "page": "/contact/rendez-vous/confirmation",
+      "regex": "^/contact/rendez\\-vous/confirmation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact/rendez\\-vous/confirmation(?:/)?$"
+    },
+    {
+      "page": "/donnees",
+      "regex": "^/donnees(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/donnees(?:/)?$"
+    },
+    {
+      "page": "/insights",
+      "regex": "^/insights(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/insights(?:/)?$"
+    },
+    {
+      "page": "/mentions-legales",
+      "regex": "^/mentions\\-legales(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mentions\\-legales(?:/)?$"
+    },
+    {
+      "page": "/politique-de-confidentialite",
+      "regex": "^/politique\\-de\\-confidentialite(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/politique\\-de\\-confidentialite(?:/)?$"
+    },
+    {
+      "page": "/rejoignez-nous/candidature",
+      "regex": "^/rejoignez\\-nous/candidature(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rejoignez\\-nous/candidature(?:/)?$"
+    },
+    {
+      "page": "/rejoignez-nous/carrieres",
+      "regex": "^/rejoignez\\-nous/carrieres(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rejoignez\\-nous/carrieres(?:/)?$"
+    },
+    {
+      "page": "/services/audit",
+      "regex": "^/services/audit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/audit(?:/)?$"
+    },
+    {
+      "page": "/services/comptabilite",
+      "regex": "^/services/comptabilite(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/comptabilite(?:/)?$"
+    },
+    {
+      "page": "/services/conseil-en-gestion",
+      "regex": "^/services/conseil\\-en\\-gestion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/conseil\\-en\\-gestion(?:/)?$"
+    },
+    {
+      "page": "/services/conseil-en-risques",
+      "regex": "^/services/conseil\\-en\\-risques(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/conseil\\-en\\-risques(?:/)?$"
+    },
+    {
+      "page": "/services/conseil-financier",
+      "regex": "^/services/conseil\\-financier(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/conseil\\-financier(?:/)?$"
+    },
+    {
+      "page": "/services/conseil-fiscal",
+      "regex": "^/services/conseil\\-fiscal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/conseil\\-fiscal(?:/)?$"
+    },
+    {
+      "page": "/services/conseil-operationnel",
+      "regex": "^/services/conseil\\-operationnel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/conseil\\-operationnel(?:/)?$"
+    },
+    {
+      "page": "/services/expertise-comptable",
+      "regex": "^/services/expertise\\-comptable(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/expertise\\-comptable(?:/)?$"
+    },
+    {
+      "page": "/services/nos-metiers",
+      "regex": "^/services/nos\\-metiers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/nos\\-metiers(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

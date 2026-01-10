@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/conseil-en-gestion/layout,_N_T_/services/conseil-en-gestion/page,_N_T_/services/conseil-en-gestion"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/conseil-en-gestion/__PAGE__",
+    "/services/conseil-en-gestion",
+    "/services",
+    "/_index",
+    "/_head"
+  ]
+}

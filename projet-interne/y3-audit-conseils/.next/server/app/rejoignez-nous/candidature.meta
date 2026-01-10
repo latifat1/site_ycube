@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/rejoignez-nous/layout,_N_T_/rejoignez-nous/candidature/layout,_N_T_/rejoignez-nous/candidature/page,_N_T_/rejoignez-nous/candidature"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/rejoignez-nous/candidature/__PAGE__",
+    "/rejoignez-nous/candidature",
+    "/rejoignez-nous",
+    "/_index",
+    "/_head"
+  ]
+}

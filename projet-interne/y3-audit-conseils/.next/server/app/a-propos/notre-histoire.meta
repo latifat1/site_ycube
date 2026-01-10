@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/a-propos/layout,_N_T_/a-propos/notre-histoire/layout,_N_T_/a-propos/notre-histoire/page,_N_T_/a-propos/notre-histoire"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/a-propos/notre-histoire/__PAGE__",
+    "/a-propos/notre-histoire",
+    "/a-propos",
+    "/_index",
+    "/_head"
+  ]
+}

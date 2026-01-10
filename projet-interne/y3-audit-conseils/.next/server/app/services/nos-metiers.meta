@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/nos-metiers/layout,_N_T_/services/nos-metiers/page,_N_T_/services/nos-metiers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/nos-metiers/__PAGE__",
+    "/services/nos-metiers",
+    "/services",
+    "/_index",
+    "/_head"
+  ]
+}

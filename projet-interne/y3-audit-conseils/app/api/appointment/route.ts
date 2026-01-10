@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 // @ts-ignore - PrismaClient will be available after generation
 import { PrismaClient } from '@prisma/client';
 import { sendMail } from "../utils/sendMail";
-import { getAppointmentConfirmationTemplate } from "../utils/emailTemplates";
+import { getAppointmentConfirmationTemplate, getAppointmentNotificationTemplate } from "../utils/emailTemplates";
 
 let prisma: PrismaClient | null = null;
 
@@ -133,7 +133,38 @@ export async function POST(request: Request) {
       }, { status: 500 });
     }
 
-    // Envoi d'un email personnalisé à l'utilisateur (non bloquant)
+    // Envoi d'un email de notification à hello@ycubeac.com (non bloquant)
+    try {
+      const notificationTemplate = getAppointmentNotificationTemplate({
+        name,
+        email,
+        phone,
+        company: company || undefined,
+        service,
+        date: date,
+        time: time,
+        message: message || undefined,
+      });
+
+      const notificationResult = await sendMail({
+        to: 'hello@ycubeac.com',
+        subject: `Nouvelle demande de rendez-vous - ${name}`,
+        text: notificationTemplate.text,
+        html: notificationTemplate.html,
+      });
+
+      if (notificationResult.success) {
+        console.log('✅ Email de notification envoyé à hello@ycubeac.com');
+      } else {
+        console.warn('❌ Échec envoi email de notification:', notificationResult.error);
+      }
+    } catch (emailError) {
+      // L'email a échoué mais le rendez-vous est enregistré
+      console.error('❌ Erreur lors de l\'envoi de l\'email de notification:', emailError);
+      // On continue quand même car le rendez-vous est enregistré
+    }
+
+    // Envoi d'un email de confirmation à l'utilisateur (non bloquant)
     try {
       const template = getAppointmentConfirmationTemplate({
         name,
@@ -149,12 +180,17 @@ export async function POST(request: Request) {
         html: template.html,
       });
 
-      if (!emailResult.success) {
-        console.warn('Email sending failed:', emailResult.error);
+      if (emailResult.success) {
+        console.log(`✅ Email de confirmation envoyé au client: ${email} (ID: ${emailResult.messageId})`);
+      } else {
+        console.error(`❌ Échec envoi email de confirmation au client (${email}):`, {
+          error: emailResult.error,
+          details: emailResult.errorDetails,
+        });
       }
     } catch (emailError) {
       // L'email a échoué mais le rendez-vous est enregistré
-      console.error('Email sending failed:', emailError);
+      console.error(`❌ Erreur lors de l'envoi de l'email de confirmation au client (${email}):`, emailError);
       // On continue quand même car le rendez-vous est enregistré
     }
 

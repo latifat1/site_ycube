@@ -274,6 +274,66 @@ L'équipe Y3 Audit & Conseils`;
   return { html, text };
 }
 
+/**
+ * Template pour la notification de nouveau rendez-vous à l'équipe
+ */
+export function getAppointmentNotificationTemplate(data: {
+  name: string;
+  email: string;
+  phone: string;
+  company?: string;
+  service: string;
+  date: string;
+  time: string;
+  message?: string;
+}): { html: string; text: string } {
+  const html = getBaseTemplate(`
+    <h2 style="color: #073E5D; margin-top: 0;">Nouvelle demande de rendez-vous</h2>
+    <p style="color: #333333; font-size: 16px; line-height: 1.6;">
+      Une nouvelle demande de rendez-vous a été reçue.
+    </p>
+    <div style="background-color: #f8f9fa; padding: 20px; border-radius: 6px; margin: 20px 0; border-left: 4px solid #80C342;">
+      <p style="margin: 0 0 10px 0; color: #333333; font-size: 16px;">
+        <strong>Nom :</strong> ${data.name}<br>
+        <strong>Email :</strong> ${data.email}<br>
+        <strong>Téléphone :</strong> ${data.phone}<br>
+        ${data.company ? `<strong>Entreprise :</strong> ${data.company}<br>` : ''}
+        <strong>Service :</strong> ${data.service}<br>
+        <strong>Date :</strong> ${new Date(data.date).toLocaleDateString('fr-FR', { 
+          weekday: 'long', 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric' 
+        })}<br>
+        <strong>Heure :</strong> ${data.time}
+      </p>
+      ${data.message ? `<p style="margin: 10px 0 0 0; color: #333333; font-size: 16px;"><strong>Message :</strong><br>${data.message}</p>` : ''}
+    </div>
+    <p style="color: #333333; font-size: 16px; line-height: 1.6;">
+      Veuillez contacter le client pour confirmer le rendez-vous.
+    </p>
+  `);
+
+  const text = `Nouvelle demande de rendez-vous
+
+Nom : ${data.name}
+Email : ${data.email}
+Téléphone : ${data.phone}
+${data.company ? `Entreprise : ${data.company}\n` : ''}Service : ${data.service}
+Date : ${new Date(data.date).toLocaleDateString('fr-FR', { 
+  weekday: 'long', 
+  year: 'numeric', 
+  month: 'long', 
+  day: 'numeric' 
+})}
+Heure : ${data.time}
+${data.message ? `\nMessage :\n${data.message}` : ''}
+
+Veuillez contacter le client pour confirmer le rendez-vous.`;
+
+  return { html, text };
+}
+
 
 
 

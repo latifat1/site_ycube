@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/expertise-comptable/layout,_N_T_/services/expertise-comptable/page,_N_T_/services/expertise-comptable"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/expertise-comptable/__PAGE__",
+    "/services/expertise-comptable",
+    "/services",
+    "/_index",
+    "/_head"
+  ]
+}

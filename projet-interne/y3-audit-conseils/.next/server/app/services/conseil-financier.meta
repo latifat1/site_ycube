@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/conseil-financier/layout,_N_T_/services/conseil-financier/page,_N_T_/services/conseil-financier"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/conseil-financier/__PAGE__",
+    "/services/conseil-financier",
+    "/services",
+    "/_index",
+    "/_head"
+  ]
+}

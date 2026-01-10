@@ -1,7 +1,5 @@
 "use client"
 
-import type React from "react"
-
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { Check, Loader2 } from "lucide-react"
@@ -11,8 +9,6 @@ interface AppointmentFormProps {
   selectedDate: Date | undefined
   selectedTime: string | undefined
 }
-
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/xovwvjlr" // Remplace par ton URL Formspree
 
 export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormProps) {
   const router = useRouter()
@@ -76,40 +72,53 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-
     if (!validateForm()) return
 
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('/api/appointment', {
+      const formattedDate = selectedDate
+        ? selectedDate.toLocaleDateString("fr-FR", {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })
+        : ""
+
+      const emailBody = `Bonjour,
+
+Je souhaite prendre rendez-vous avec vous.
+
+Informations de contact :
+- Nom complet : ${formData.firstName} ${formData.lastName}
+- Email : ${formData.email}
+- Téléphone : ${formData.phone}
+${formData.company ? `- Entreprise : ${formData.company}` : ""}
+
+Détails du rendez-vous :
+- Service demandé : ${formData.subject}
+- Date souhaitée : ${formattedDate}
+- Heure souhaitée : ${selectedTime}
+
+${formData.message ? `Message :\n${formData.message}` : ""}
+
+Cordialement,
+${formData.firstName} ${formData.lastName}`
+
+      // ✅ Envoi du mail au backend
+      const response = await fetch("http://localhost:5000/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: `${formData.firstName} ${formData.lastName}`,
-          email: formData.email,
-          phone: formData.phone,
-          company: formData.company,
-          service: formData.subject,
-          message: formData.message,
-          date: selectedDate?.toISOString(),
-          time: selectedTime,
+          to: "hello@ycubeac.com", // destinataire final
+          subject: `Demande de rendez-vous - ${formData.subject}`,
+          text: emailBody,
+          html: emailBody.replace(/\n/g, "<br>"),
         }),
       })
-
-      let data;
-      try {
-        data = await response.json()
-      } catch (jsonError) {
-        // Si la réponse n'est pas du JSON valide
-        setIsSubmitting(false)
-        const text = await response.text()
-        console.error('Invalid JSON response:', text)
-        alert(`Erreur : Une erreur est survenue lors de l'envoi. (Code: ${response.status})`)
-        return
-      }
 
       if (response.ok) {
         setIsSubmitted(true)
@@ -117,23 +126,21 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
           router.push("/contact/rendez-vous/confirmation")
         }, 2000)
       } else {
+        const errorData = await response.json()
+        alert(`Erreur : ${errorData.error || "Impossible d'envoyer l'email. Veuillez réessayer."}`)
         setIsSubmitting(false)
-        // Afficher un message d'erreur plus détaillé
-        const errorMessage = data.details || data.error || "Une erreur est survenue lors de l'envoi."
-        alert(`Erreur : ${errorMessage}`)
-        console.error('Appointment API error:', data)
       }
     } catch (error) {
+      console.error("Erreur lors de l'envoi de l'email :", error)
+      alert("Erreur réseau. Veuillez vérifier votre connexion et réessayer.")
       setIsSubmitting(false)
-      console.error('Network error:', error)
-      alert("Erreur réseau ou serveur. Veuillez vérifier votre connexion et réessayer plus tard.")
     }
   }
 
   const subjects = [
     { value: "", label: "Sélectionnez un service" },
     { value: "expertise comptable", label: "Expertise comptable" },
-    { value: "audit", label: "audit" },
+    { value: "audit", label: "Audit" },
     { value: "conseil financier", label: "Conseil financier" },
     { value: "conseil opérationnel", label: "Conseil opérationnel" },
     { value: "autre", label: "Autre" },
@@ -194,10 +201,10 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
             autoComplete="given-name"
             className={cn(
               "w-full px-3 xs:px-4 py-2.5 xs:py-3 text-sm xs:text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-[#80C342]",
-              errors.name ? "border-red-500" : "border-gray-300",
+              errors.name ? "border-red-500" : "border-gray-300"
             )}
           />
-          {errors.name && <p className="mt-1 text-sm xs:text-base text-red-500">{errors.name}</p>}
+          {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name}</p>}
         </div>
 
         <div>
@@ -213,10 +220,10 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
             autoComplete="family-name"
             className={cn(
               "w-full px-3 xs:px-4 py-2.5 xs:py-3 text-sm xs:text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-[#80C342]",
-              errors.name ? "border-red-500" : "border-gray-300",
+              errors.name ? "border-red-500" : "border-gray-300"
             )}
           />
-          {errors.name && <p className="mt-1 text-sm xs:text-base text-red-500">{errors.name}</p>}
+          {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name}</p>}
         </div>
       </div>
 
@@ -234,10 +241,10 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
             autoComplete="email"
             className={cn(
               "w-full px-3 xs:px-4 py-2.5 xs:py-3 text-sm xs:text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-[#80C342]",
-              errors.email ? "border-red-500" : "border-gray-300",
+              errors.email ? "border-red-500" : "border-gray-300"
             )}
           />
-          {errors.email && <p className="mt-1 text-sm xs:text-base text-red-500">{errors.email}</p>}
+          {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email}</p>}
         </div>
 
         <div>
@@ -253,10 +260,10 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
             autoComplete="tel"
             className={cn(
               "w-full px-3 xs:px-4 py-2.5 xs:py-3 text-sm xs:text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-[#80C342]",
-              errors.phone ? "border-red-500" : "border-gray-300",
+              errors.phone ? "border-red-500" : "border-gray-300"
             )}
           />
-          {errors.phone && <p className="mt-1 text-sm xs:text-base text-red-500">{errors.phone}</p>}
+          {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone}</p>}
         </div>
       </div>
 
@@ -286,7 +293,7 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
           onChange={handleChange}
           className={cn(
             "w-full px-3 xs:px-4 py-2.5 xs:py-3 text-sm xs:text-base border rounded-md focus:outline-none focus:ring-2 focus:ring-[#80C342]",
-            errors.subject ? "border-red-500" : "border-gray-300",
+            errors.subject ? "border-red-500" : "border-gray-300"
           )}
         >
           {subjects.map((s) => (
@@ -295,7 +302,7 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
             </option>
           ))}
         </select>
-        {errors.subject && <p className="mt-1 text-sm xs:text-base text-red-500">{errors.subject}</p>}
+        {errors.subject && <p className="mt-1 text-sm text-red-500">{errors.subject}</p>}
       </div>
 
       <div>

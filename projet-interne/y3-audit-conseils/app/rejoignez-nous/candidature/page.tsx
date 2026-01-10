@@ -105,39 +105,51 @@ export default function CandidaturePage() {
     setIsSubmitting(true)
     setErrors({})
 
-    const formDataToSend = new FormData()
-    formDataToSend.append("lastName", formData.nom)
-    formDataToSend.append("firstName", formData.prenom)
-    formDataToSend.append("email", formData.email)
-    formDataToSend.append("phone", formData.telephone)
-    formDataToSend.append("position", formData.poste)
-    formDataToSend.append("coverLetter", formData.lettre)
-    if (formData.cv) {
-      formDataToSend.append("cv", formData.cv)
-    }
-
     try {
-      const response = await fetch("/api/application", {
-        method: "POST",
+      // Construire le corps de l'email avec toutes les informations
+      const emailBody = `Bonjour,
+
+Je souhaite postuler pour le poste de ${formData.poste}.
+
+Informations personnelles :
+- Nom : ${formData.nom}
+- Prénom : ${formData.prenom}
+- Email : ${formData.email}
+- Téléphone : ${formData.telephone}
+
+${formData.lettre ? `Lettre de motivation :\n${formData.lettre}\n\n` : ''}Note : Le CV est joint à cet email.
+
+Cordialement,
+${formData.prenom} ${formData.nom}`
+
+      // Préparer FormData pour envoyer le CV
+      const formDataToSend = new FormData()
+      formDataToSend.append('to', 'recrutement@ycubeac.com')
+      formDataToSend.append('subject', `Candidature spontanée - ${formData.poste} - ${formData.prenom} ${formData.nom}`)
+      formDataToSend.append('text', emailBody)
+      formDataToSend.append('html', emailBody.replace(/\n/g, '<br>'))
+      if (formData.cv) {
+        formDataToSend.append('cv', formData.cv)
+      }
+
+      // Envoyer l'email automatiquement avec le CV
+      const response = await fetch('/api/send-email-with-attachment', {
+        method: 'POST',
         body: formDataToSend,
       })
 
       if (response.ok) {
         setIsSubmitted(true)
       } else {
-        let errorData;
-        try {
-          errorData = await response.json()
-        } catch (jsonError) {
-          errorData = { error: "Une erreur est survenue lors de l'envoi." }
-        }
+        const errorData = await response.json()
         setErrors({
-          submit: errorData.details || errorData.error || "Une erreur est survenue lors de l'envoi.",
+          submit: errorData.error || "Une erreur est survenue lors de l'envoi.",
         })
-        console.error('Error submitting application:', errorData)
+        console.error('Error sending application email:', errorData)
       }
     } catch (error) {
       setErrors({ submit: "Une erreur réseau ou serveur est survenue." })
+      console.error('Error:', error)
     } finally {
       setIsSubmitting(false)
     }
@@ -200,8 +212,7 @@ export default function CandidaturePage() {
                       </div>
                       <h3 className="text-2xl font-semibold text-[#073E5D] mb-4">Candidature envoyée avec succès</h3>
                       <p className="text-gray-600 text-center mb-6 max-w-md">
-                        Nous avons bien reçu votre candidature. Notre équipe RH l'examinera dans les plus brefs délais et vous
-                        contactera si votre profil correspond à nos besoins.
+                        Votre candidature a été envoyée à recrutement@ycubeac.com. Notre équipe RH l'examinera dans les plus brefs délais et vous contactera si votre profil correspond à nos besoins.
                       </p>
                       <div className="w-16 h-1 bg-[#80C342] mx-auto"></div>
                     </div>
