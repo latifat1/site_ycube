@@ -1,5 +1,22 @@
-[00:00:02.652] Server  LOG     ✓ Ready in 1862ms
-[00:00:08.077] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:43.424] Browser ERROR   Error sending application email: {"error":"Configuration email manquante"}
-[00:05:46.521] Server  LOG     ✓ Compiled in 5.4s
-[00:05:56.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.379] Server  LOG     ✓ Ready in 3.8s
+[00:00:52.239] Server  LOG     ○ Compiling / ...
+[00:00:56.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:42.199] Browser ERROR   Error: {}
+[00:16:58.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:20.183] Browser ERROR   Error: {}
+[00:21:50.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:13.484] Browser ERROR   Error: {}
+[00:24:18.379] Server  LOG     ✓ Compiled in 5.4s
+[00:25:15.435] Browser ERROR   Error: {}
+[00:25:18.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:37.684] Browser ERROR   Error: {}
+[00:40:33.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:48.966] Browser ERROR   Erreur lors de l'envoi de l'email : {}
+[00:47:08.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:05.983] Browser ERROR   Erreur lors de l'envoi de l'email : {}
+[01:09:59.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:10.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:28:58.326] Browser ERROR   Erreur lors de l'envoi de l'email : {}
+[01:38:23.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:17.326] Browser ERROR   Erreur lors de l'envoi de l'email : {}
+[01:44:42.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

@@ -1,5 +1,11 @@
 {
   "app": {
+    "[project]/projet-interne/y3-audit-conseils/app/contact/rendez-vous/confirmation/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/projet-interne/y3-audit-conseils/app/contact/rendez-vous/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
     "[project]/projet-interne/y3-audit-conseils/app/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],

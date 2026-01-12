@@ -97,17 +97,16 @@ export default function CandidaturePage() {
     return Object.keys(newErrors).length === 0
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
 
-    if (!validateForm()) return
+  if (!validateForm()) return
 
-    setIsSubmitting(true)
-    setErrors({})
+  setIsSubmitting(true)
+  setErrors({})
 
-    try {
-      // Construire le corps de l'email avec toutes les informations
-      const emailBody = `Bonjour,
+  try {
+    const emailBody = `Bonjour,
 
 Je souhaite postuler pour le poste de ${formData.poste}.
 
@@ -122,39 +121,38 @@ ${formData.lettre ? `Lettre de motivation :\n${formData.lettre}\n\n` : ''}Note :
 Cordialement,
 ${formData.prenom} ${formData.nom}`
 
-      // Préparer FormData pour envoyer le CV
-      const formDataToSend = new FormData()
-      formDataToSend.append('to', 'recrutement@ycubeac.com')
-      formDataToSend.append('subject', `Candidature spontanée - ${formData.poste} - ${formData.prenom} ${formData.nom}`)
-      formDataToSend.append('text', emailBody)
-      formDataToSend.append('html', emailBody.replace(/\n/g, '<br>'))
-      if (formData.cv) {
-        formDataToSend.append('cv', formData.cv)
-      }
+    // ✅ On prépare les données à envoyer
+    const formDataToSend = new FormData()
+    formDataToSend.append('subject', `Candidature spontanée - ${formData.poste}`)
+    formDataToSend.append('text', emailBody)
+    formDataToSend.append('html', emailBody.replace(/\n/g, '<br>'))
+    formDataToSend.append('candidatEmail', formData.email)
+    formDataToSend.append('candidatNom', `${formData.prenom} ${formData.nom}`)
+    if (formData.cv) formDataToSend.append('cv', formData.cv)
 
-      // Envoyer l'email automatiquement avec le CV
-      const response = await fetch('http://localhost:5000/send-email-with-attachment', {
+    // ✅ Envoi vers le backend Nodemailer
+    const response = await fetch('http://localhost:5000/send-email-with-attachment', {
+      method: 'POST',
+      body: formDataToSend, // ⚠️ ne pas ajouter de headers !
+    })
 
-        method: 'POST',
-        body: formDataToSend,
+    if (response.ok) {
+      setIsSubmitted(true)
+    } else {
+      const errorData = await response.json()
+      setErrors({
+        submit: errorData.error || "Une erreur est survenue lors de l'envoi.",
       })
-
-      if (response.ok) {
-        setIsSubmitted(true)
-      } else {
-        const errorData = await response.json()
-        setErrors({
-          submit: errorData.error || "Une erreur est survenue lors de l'envoi.",
-        })
-        console.error('Error sending application email:', errorData)
-      }
-    } catch (error) {
-      setErrors({ submit: "Une erreur réseau ou serveur est survenue." })
-      console.error('Error:', error)
-    } finally {
-      setIsSubmitting(false)
+      console.error('Erreur lors de l’envoi de la candidature :', errorData)
     }
+  } catch (error) {
+    console.error('Erreur réseau :', error)
+    setErrors({ submit: "Erreur réseau ou serveur. Vérifiez votre connexion." })
+  } finally {
+    setIsSubmitting(false)
   }
+}
+
 
   return (
     <>
