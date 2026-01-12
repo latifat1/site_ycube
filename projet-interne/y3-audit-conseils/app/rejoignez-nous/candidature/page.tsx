@@ -133,7 +133,8 @@ ${formData.prenom} ${formData.nom}`
       }
 
       // Envoyer l'email automatiquement avec le CV
-      const response = await fetch('/api/send-email-with-attachment', {
+      const response = await fetch('http://localhost:5000/send-email-with-attachment', {
+
         method: 'POST',
         body: formDataToSend,
       })
