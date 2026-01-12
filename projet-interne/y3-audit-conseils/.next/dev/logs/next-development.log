@@ -1,6 +1,3 @@
-[00:00:03.138] Server  LOG     ✓ Ready in 1974ms
-[00:00:05.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:18.452] Server  LOG     ✓ Compiled in 5.6s
-[00:22:22.527] Server  LOG     ✓ Compiled in 897ms
-[00:25:16.841] Server  LOG     ✓ Compiled in 1140ms
-[00:25:23.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.626] Server  LOG     ✓ Ready in 4s
+[00:00:31.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:57.333] Browser ERROR   Error sending application email: {"error":"Configuration email manquante"}
