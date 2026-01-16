@@ -1,5 +1,5 @@
 {
-  "/contact/rendez-vous/confirmation/page": "app/contact/rendez-vous/confirmation/page.js",
-  "/contact/rendez-vous/page": "app/contact/rendez-vous/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/a-propos/notre-equipe/page": "app/a-propos/notre-equipe/page.js",
   "/page": "app/page.js"
 }
