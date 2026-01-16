@@ -19,41 +19,31 @@ export function Footer() {
     window.open('https://www.google.com/maps/search/M\'Badon+Avenue+Jean+Malan+Cocody+Riviera', '_blank')
   }
 
-  const handleNewsletterSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+ const handleNewsletterSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+  setIsSubmitting(true)
 
-    try {
-      const formData = new FormData()
-      formData.append("EMAIL", email)
-      formData.append("u", "564210c912175ad3e644784c4")
-      formData.append("id", "a26ea5c286")
-      formData.append("f_id", "002ea8e4f0")
+  try {
+    const res = await fetch("http://localhost:5000/send-newsletter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    })
 
-      const response = await fetch("https://gmail.us7.list-manage.com/subscribe/post?u=564210c912175ad3e644784c4&id=a26ea5c286&f_id=002ea8e4f0", {
-        method: "POST",
-        mode: "no-cors",
-        body: formData,
-      })
-
+    if (res.ok) {
       setIsSubmitted(true)
       setEmail("")
-      
-      // Réinitialiser le message après 3 secondes
-      setTimeout(() => {
-        setIsSubmitted(false)
-      }, 3000)
-    } catch (error) {
-      // En mode no-cors, on ne peut pas détecter les erreurs, mais on assume que ça fonctionne
-      setIsSubmitted(true)
-      setEmail("")
-      setTimeout(() => {
-        setIsSubmitted(false)
-      }, 3000)
-    } finally {
-      setIsSubmitting(false)
+      setTimeout(() => setIsSubmitted(false), 3000)
+    } else {
+      alert("Erreur lors de l'envoi de l'inscription.")
     }
+  } catch (error) {
+    console.error("Erreur :", error)
+    alert("Impossible de contacter le serveur.")
+  } finally {
+    setIsSubmitting(false)
   }
+}
 
 
   return (

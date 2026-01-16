@@ -1,6 +1,3 @@
 {
-  "/contact/rendez-vous/confirmation/page": "app/contact/rendez-vous/confirmation/page.js",
-  "/contact/rendez-vous/page": "app/contact/rendez-vous/page.js",
-  "/page": "app/page.js",
-  "/rejoignez-nous/candidature/page": "app/rejoignez-nous/candidature/page.js"
+  "/page": "app/page.js"
 }

@@ -136,6 +136,43 @@ app.post('/send-email', async (req, res) => {
 
 
 // ==============================
+// ✅ Route pour les inscriptions à la newsletter
+// ==============================
+app.post("/send-newsletter", async (req, res) => {
+  try {
+    const { email } = req.body;
+
+    if (!email) {
+      return res.status(400).json({ error: "Adresse email manquante." });
+    }
+
+    // 📩 Email vers hello@ycubeac.com
+    const mailOptions = {
+      from: `"Newsletter Y3 Audit & Conseils" <${process.env.SMTP_USER}>`,
+      to: "hello@ycubeac.com",
+      subject: "Nouvelle inscription à la newsletter",
+      html: `
+        <div style="font-family:sans-serif">
+          <h3>Nouvelle inscription à la newsletter :</h3>
+          <p><strong>${email}</strong></p>
+        </div>
+      `,
+    };
+
+    await transporter.sendMail(mailOptions);
+    console.log("✅ Inscription envoyée à hello@ycubeac.com :", email);
+
+    res.status(200).json({ success: true, message: "Inscription envoyée à hello@ycubeac.com ✅" });
+  } catch (error) {
+    console.error("❌ Erreur lors de l'envoi de l'inscription :", error);
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+
+
+
+// ==============================
 // ✅ Lancer le serveur
 // ==============================
 const PORT = process.env.PORT || 5000;

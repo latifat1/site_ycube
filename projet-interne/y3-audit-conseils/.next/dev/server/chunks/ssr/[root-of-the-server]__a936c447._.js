@@ -275,29 +275,25 @@ function Footer() {
         e.preventDefault();
         setIsSubmitting(true);
         try {
-            const formData = new FormData();
-            formData.append("EMAIL", email);
-            formData.append("u", "564210c912175ad3e644784c4");
-            formData.append("id", "a26ea5c286");
-            formData.append("f_id", "002ea8e4f0");
-            const response = await fetch("https://gmail.us7.list-manage.com/subscribe/post?u=564210c912175ad3e644784c4&id=a26ea5c286&f_id=002ea8e4f0", {
+            const res = await fetch("http://localhost:5000/send-newsletter", {
                 method: "POST",
-                mode: "no-cors",
-                body: formData
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    email
+                })
             });
-            setIsSubmitted(true);
-            setEmail("");
-            // Réinitialiser le message après 3 secondes
-            setTimeout(()=>{
-                setIsSubmitted(false);
-            }, 3000);
+            if (res.ok) {
+                setIsSubmitted(true);
+                setEmail("");
+                setTimeout(()=>setIsSubmitted(false), 3000);
+            } else {
+                alert("Erreur lors de l'envoi de l'inscription.");
+            }
         } catch (error) {
-            // En mode no-cors, on ne peut pas détecter les erreurs, mais on assume que ça fonctionne
-            setIsSubmitted(true);
-            setEmail("");
-            setTimeout(()=>{
-                setIsSubmitted(false);
-            }, 3000);
+            console.error("Erreur :", error);
+            alert("Impossible de contacter le serveur.");
         } finally{
             setIsSubmitting(false);
         }
@@ -316,7 +312,7 @@ function Footer() {
                                 children: "Coordonnées"
                             }, void 0, false, {
                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                lineNumber: 65,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -335,7 +331,7 @@ function Footer() {
                                                     className: "mr-2 text-green-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 59,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -343,18 +339,18 @@ function Footer() {
                                                     children: "+2250546006393"
                                                 }, void 0, false, {
                                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 60,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 58,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -371,7 +367,7 @@ function Footer() {
                                                     className: "mr-2 text-green-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 71,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -379,18 +375,18 @@ function Footer() {
                                                     children: "hello@ycubeac.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 72,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 64,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -404,7 +400,7 @@ function Footer() {
                                                     className: "mr-2 text-green-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 77,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -412,30 +408,30 @@ function Footer() {
                                                     children: "Cocody, Riviera"
                                                 }, void 0, false, {
                                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 78,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 76,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                lineNumber: 66,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                        lineNumber: 64,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -445,7 +441,7 @@ function Footer() {
                                 children: "Newsletter"
                             }, void 0, false, {
                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                lineNumber: 101,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -453,7 +449,7 @@ function Footer() {
                                 children: "Inscrivez-vous à notre newsletter pour recevoir nos actualités et conseils."
                             }, void 0, false, {
                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                lineNumber: 102,
+                                lineNumber: 92,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,7 +462,7 @@ function Footer() {
                                             size: 20
                                         }, void 0, false, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 98,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -474,13 +470,13 @@ function Footer() {
                                             children: "Merci pour votre inscription !"
                                         }, void 0, false, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 99,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 97,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                     onSubmit: handleNewsletterSubmit,
@@ -497,12 +493,12 @@ function Footer() {
                                                 className: "w-full px-2 py-1.5 sm:px-3 bg-[#0A4E73] border border-[#1A6A95] rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#80C342] text-xs sm:text-sm sm:text-base"
                                             }, void 0, false, {
                                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 107,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -512,18 +508,18 @@ function Footer() {
                                             children: isSubmitting ? "Inscription..." : "S'abonner"
                                         }, void 0, false, {
                                             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                            lineNumber: 127,
+                                            lineNumber: 117,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 102,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                lineNumber: 105,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -538,39 +534,39 @@ function Footer() {
                                         size: 26
                                     }, void 0, false, {
                                         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 135,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 128,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                                lineNumber: 137,
+                                lineNumber: 127,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                        lineNumber: 100,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-                lineNumber: 62,
+                lineNumber: 52,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-            lineNumber: 61,
+            lineNumber: 51,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/projet-interne/y3-audit-conseils/app/components/footer.tsx",
-        lineNumber: 60,
+        lineNumber: 50,
         columnNumber: 5
     }, this);
 }

@@ -999,7 +999,7 @@ const experts = [
         ],
         contact: {
             email: "christiane.guehi@ycubeac.com",
-            phone: "+225 05 64 869 789",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/christiane-guehi-seoulou-5a1814135/"
         }
     },
@@ -1018,7 +1018,7 @@ const experts = [
         ],
         contact: {
             email: "stephane.gnahoua@ycubeac.com",
-            phone: "+225 05 54 74 60 69",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/st%C3%A9phane-gnahoua-09a4451b3/"
         }
     },
@@ -1037,7 +1037,7 @@ const experts = [
         ],
         contact: {
             email: "axelle.amani@ycubeac.com",
-            phone: "+225 05 96 45 19 03",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/axelle-amani-25275592/"
         }
     },
@@ -1056,7 +1056,7 @@ const experts = [
         ],
         contact: {
             email: "stephanie.taki@ycubeac.com",
-            phone: "+225 05 07 49 14 36",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/stephanie-rebecca-taki-a16012108/"
         }
     },
@@ -1075,7 +1075,7 @@ const experts = [
         ],
         contact: {
             email: "augustin.kpantche@ycubeac.com",
-            phone: "+225 05 96 45 22 09",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/augustin-kpantche-6658a427/"
         }
     },
@@ -1094,7 +1094,7 @@ const experts = [
         ],
         contact: {
             email: "revita.oule@ycubeac.com",
-            phone: "+225 07 00 88 87 47",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/r%C3%A9vita-oul%C3%A9-20a663196/"
         }
     },
@@ -1115,7 +1115,7 @@ const experts = [
         ],
         contact: {
             email: "isabella.beda@ycubeac.com",
-            phone: "+225 05 08 69 83 52",
+            phone: "",
             linkedin: "https://www.linkedin.com/in/isabella-beda-659918142/?originalSubdomain=fr"
         }
     }
