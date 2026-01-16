@@ -1,3 +1,5 @@
 {
+  "/contact/rendez-vous/confirmation/page": "app/contact/rendez-vous/confirmation/page.js",
+  "/contact/rendez-vous/page": "app/contact/rendez-vous/page.js",
   "/page": "app/page.js"
 }

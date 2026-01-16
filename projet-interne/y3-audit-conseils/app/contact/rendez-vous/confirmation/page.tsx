@@ -1,16 +1,42 @@
+"use client"
+
 import Link from "next/link"
 import { CheckCircle, Calendar, Clock, ArrowLeft } from "lucide-react"
+import { MainSlider, type Slide } from "@/app/components/main-slider"
+
+// Une seule image pour le slider
+const slides: Slide[] = [
+  {
+    title: "Merci pour votre confiance !",
+    description: "Votre demande de rendez-vous a été confirmée.",
+    image: "/22.png",
+    id: 0,
+    buttonText: "",
+    buttonLink: "",
+    priority: false,
+  },
+]
 
 export default function ConfirmationPage() {
   return (
-    <main className="py-16">
-      <div className="container mx-auto px-4">
+    <main className="min-h-screen bg-gray-50">
+      
+      {/* MainSlider avec header confondu */}
+      <section>
+        <MainSlider slides={slides} />
+      </section>
+
+      {/* Section de confirmation centrée */}
+      <section className="flex flex-col items-center justify-center px-4 -mt-20 md:-mt-32"> 
+        {/* -mt pour remonter légèrement au milieu du slider */}
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
           <div className="flex flex-col items-center text-center mb-8">
             <div className="rounded-full bg-green-100 p-4 mb-4">
               <CheckCircle className="h-12 w-12 text-green-600" />
             </div>
-            <h1 className="text-3xl font-bold text-[#073E5D] mb-2">Demande de rendez-vous confirmée</h1>
+            <h1 className="text-3xl font-bold text-[#073E5D] mb-2">
+              Demande de rendez-vous confirmée
+            </h1>
             <div className="w-16 h-1 bg-[#80C342] mx-auto mb-4"></div>
             <p className="text-gray-600">
               Nous avons bien reçu votre demande de rendez-vous. Un membre de notre équipe vous contactera dans les plus
@@ -52,7 +78,7 @@ export default function ConfirmationPage() {
             </Link>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   )
 }
