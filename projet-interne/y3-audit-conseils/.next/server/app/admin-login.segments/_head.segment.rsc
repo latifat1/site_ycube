@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[63036,["/_next/static/chunks/3e0e67149b10cd0d.js","/_next/static/chunks/f4d73fbec1a98bb6.js"],"ViewportBoundary"]
-3:I[63036,["/_next/static/chunks/3e0e67149b10cd0d.js","/_next/static/chunks/f4d73fbec1a98bb6.js"],"MetadataBoundary"]
-4:"$Sreact.suspense"
-5:I[79648,["/_next/static/chunks/3e0e67149b10cd0d.js","/_next/static/chunks/f4d73fbec1a98bb6.js"],"IconMark"]
-0:{"buildId":"-_flpZsNZZ8CnT9iiswFg","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=5"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Y3 Audit & Conseils"}],["$","meta","1",{"name":"description","content":"Cabinet d'expertise comptable et de conseil"}],["$","link","2",{"rel":"shortcut icon","href":"/Logo-y3.png"}],["$","link","3",{"rel":"icon","href":"/Logo-y3.png"}],["$","link","4",{"rel":"apple-touch-icon","href":"/Logo-y3.png"}],["$","$L5","5",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}

@@ -15,7 +15,7 @@ const partners: Expert[] = [
     id: 1,
     name: "Georges Yao-Yao",
     position: "Associé Co-Fondateur",
-    image: "/images/georges.PNG",
+    image: "/images/georges.png",
     slug: "georges-yaoyao",
     isPartner: true,
     description: [
@@ -55,7 +55,7 @@ const experts: Expert[] = [
     id: 3,
     name: "Christiane Guehi",
     position: "Senior Manager Expertise Comptable",
-    image: "/images/christiane Guei.JPG",
+    image: "/images/christiane Guei.jpg",
     slug: "christiane-guehi",
     isPartner: false,
     bio: "Christiane Guehi est Manager chez Y3 Audit & Conseils. Elle est basée à Abidjan.",
@@ -74,7 +74,7 @@ const experts: Expert[] = [
     id: 4,
     name: "Stéphane Gnahoua",
     position: " Senior Manager Expertise Comptable",
-    image: "/images/stéphane GNAHOUA.JPG",
+    image: "/images/stéphane GNAHOUA.jpg",
     slug: "stephane-gnahoua",
     isPartner: false,
     bio: "Stéphane Gnahoua est Manager chez Y3 Audit & Conseils. Il est basé à Abidjan.",
@@ -93,7 +93,7 @@ const experts: Expert[] = [
     id: 5,
     name: "Axelle Amani",
     position: " Senior Manager Audit",
-    image: "/images/Axelle Amani.JPG",
+    image: "/images/Axelle Amani.jpg",
     slug: "axelle-amani",
     isPartner: false,
     bio: "Axelle Amani est Manager Audit chez Y3 Audit & Conseils. Elle est basée à Abidjan.",
@@ -112,7 +112,7 @@ const experts: Expert[] = [
     id: 6,
     name: "Stéphanie Taki",
     position: "Manager Audit",
-    image: "/images/stéphanie taki1.JPG",
+    image: "/images/stéphanie taki1.jpg",
     slug: "stephanie-taki",
     isPartner: false,
     bio: "Stéphanie Taki est Manager Conseil Fiscal chez Y3 Audit & Conseils. Elle est basée à Abidjan.",
@@ -131,7 +131,7 @@ const experts: Expert[] = [
     id: 7,
     name: "Augustin Kpantché",
     position: "Manager Conseil Financier",
-    image: "/images/Augustin.JPG",
+    image: "/images/Augustin.jpg",
     slug: "augustin-kpantche",
     isPartner: false,
     bio: "Augustin Kpantché est Expert Comptable Senior chez Y3 Audit & Conseils. Il est basé à Abidjan.",
@@ -150,7 +150,7 @@ const experts: Expert[] = [
     id: 8,
     name: "Revita Ouléi",
     position: "Manager Conseil Opérationnel",
-    image: "/images/revita oule.JPG",
+    image: "/images/revita oule.jpg",
     slug: "revita-oulei",
     isPartner: false,
     bio: "Revita Ouléi est Manager Conseil Opérationnel chez Y3 Audit & Conseils. Elle est basée à Abidjan.",
@@ -169,7 +169,7 @@ const experts: Expert[] = [
     id: 9,
     name: "Isabella Beda",
     position: "Responsable Ressources Humaines",
-    image: "/images/Isabella.JPG",
+    image: "/images/Isabella.jpg",
     slug: "isabella-beda",
     isPartner: false,
     bio: "Isabella Beda est responsable ressources humaines chez Y3 Audit & Conseils. Elle est basée à Abidjan.",
@@ -190,7 +190,7 @@ const experts: Expert[] = [
 
 export default function TeamPage() {
   usePageImage('/équipement.webp')
-  
+
   const teamSlides: Slide[] = [
     {
       id: 1,
@@ -202,7 +202,7 @@ export default function TeamPage() {
       priority: true,
     },
   ]
-  
+
   const searchParams = useSearchParams()
   const router = useRouter()
   const pathname = usePathname()
@@ -258,21 +258,21 @@ export default function TeamPage() {
 
       {/* Carousel des Associés - Responsive spacing */}
       <section className="py-4 xs:py-5 sm:py-6 md:py-7 lg:py-8">
-      <FadeInWhenVisible>
-        <ExpertsCarousel experts={partners} onExpertClick={handleExpertClick} title="Nos Associés" />
-      </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <ExpertsCarousel experts={partners} onExpertClick={handleExpertClick} title="Nos Associés" />
+        </FadeInWhenVisible>
       </section>
 
       {/* Carousel des Experts - Responsive spacing */}
       <section className="py-4 xs:py-5 sm:py-6 md:py-7 lg:py-8">
-      <FadeInWhenVisible>
-        <ExpertsCarousel experts={experts} onExpertClick={handleExpertClick} title="Nos Experts" />
-      </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <ExpertsCarousel experts={experts} onExpertClick={handleExpertClick} title="Nos Experts" />
+        </FadeInWhenVisible>
       </section>
 
       {/* Section Valeurs - Perfectly responsive grid et cards */}
       <section id="nos-valeurs" className="py-6 xs:py-8 sm:py-10 md:py-12 lg:py-16 xl:py-20 bg-gradient-to-br from-gray-50 via-white to-gray-50">
-      <FadeInWhenVisible>
+        <FadeInWhenVisible>
           <div className="w-full max-w-7xl mx-auto px-2 xs:px-3 sm:px-4 md:px-6 lg:px-8">
             {/* Titre responsive */}
             <div className="pl-2 xs:pl-4 sm:pl-6 md:pl-8 lg:pl-16 xl:pl-32 mb-4 xs:mb-6 sm:mb-8 md:mb-10 lg:mb-12 xl:mb-16">
@@ -302,7 +302,7 @@ export default function TeamPage() {
               </div>
             </div>
           </div>
-      </FadeInWhenVisible>
+        </FadeInWhenVisible>
       </section>
 
       {/* Modal pour afficher les détails de l'expert */}

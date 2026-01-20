@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return null\n}\n"],"names":[],"mappings":"uCAAe,SAAS,IACtB,OAAO,IACT"}

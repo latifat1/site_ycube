@@ -65,52 +65,70 @@
       "namedRegex": "^/actualites(?:/)?$"
     },
     {
-      "page": "/admin",
-      "regex": "^/admin(?:/)?$",
+      "page": "/api/send-email",
+      "regex": "^/api/send\\-email(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/admin(?:/)?$"
+      "namedRegex": "^/api/send\\-email(?:/)?$"
     },
     {
-      "page": "/admin-login",
-      "regex": "^/admin\\-login(?:/)?$",
+      "page": "/api/send-email-with-attachment",
+      "regex": "^/api/send\\-email\\-with\\-attachment(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/admin\\-login(?:/)?$"
+      "namedRegex": "^/api/send\\-email\\-with\\-attachment(?:/)?$"
     },
     {
-      "page": "/api/admin-login",
-      "regex": "^/api/admin\\-login(?:/)?$",
+      "page": "/api/send-newsletter",
+      "regex": "^/api/send\\-newsletter(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/admin\\-login(?:/)?$"
+      "namedRegex": "^/api/send\\-newsletter(?:/)?$"
     },
     {
-      "page": "/api/application",
-      "regex": "^/api/application(?:/)?$",
+      "page": "/api.disabled/admin-login",
+      "regex": "^/api\\.disabled/admin\\-login(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/application(?:/)?$"
+      "namedRegex": "^/api\\.disabled/admin\\-login(?:/)?$"
     },
     {
-      "page": "/api/appointment",
-      "regex": "^/api/appointment(?:/)?$",
+      "page": "/api.disabled/application",
+      "regex": "^/api\\.disabled/application(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/appointment(?:/)?$"
+      "namedRegex": "^/api\\.disabled/application(?:/)?$"
     },
     {
-      "page": "/api/appointment-status",
-      "regex": "^/api/appointment\\-status(?:/)?$",
+      "page": "/api.disabled/appointment",
+      "regex": "^/api\\.disabled/appointment(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/appointment\\-status(?:/)?$"
+      "namedRegex": "^/api\\.disabled/appointment(?:/)?$"
     },
     {
-      "page": "/api/contact",
-      "regex": "^/api/contact(?:/)?$",
+      "page": "/api.disabled/appointment-status",
+      "regex": "^/api\\.disabled/appointment\\-status(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/contact(?:/)?$"
+      "namedRegex": "^/api\\.disabled/appointment\\-status(?:/)?$"
     },
     {
-      "page": "/api/job-application-status",
-      "regex": "^/api/job\\-application\\-status(?:/)?$",
+      "page": "/api.disabled/contact",
+      "regex": "^/api\\.disabled/contact(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/api/job\\-application\\-status(?:/)?$"
+      "namedRegex": "^/api\\.disabled/contact(?:/)?$"
+    },
+    {
+      "page": "/api.disabled/job-application-status",
+      "regex": "^/api\\.disabled/job\\-application\\-status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api\\.disabled/job\\-application\\-status(?:/)?$"
+    },
+    {
+      "page": "/api.disabled/send-email",
+      "regex": "^/api\\.disabled/send\\-email(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api\\.disabled/send\\-email(?:/)?$"
+    },
+    {
+      "page": "/api.disabled/send-email-with-attachment",
+      "regex": "^/api\\.disabled/send\\-email\\-with\\-attachment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api\\.disabled/send\\-email\\-with\\-attachment(?:/)?$"
     },
     {
       "page": "/contact/rendez-vous",

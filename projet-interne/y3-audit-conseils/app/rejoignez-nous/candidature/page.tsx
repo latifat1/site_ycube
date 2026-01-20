@@ -131,7 +131,7 @@ ${formData.prenom} ${formData.nom}`
     if (formData.cv) formDataToSend.append('cv', formData.cv)
 
     // ✅ Envoi vers le backend Nodemailer
-    const response = await fetch('http://localhost:5000/send-email-with-attachment', {
+    const response = await fetch("/api/send-email-with-attachment", {
       method: 'POST',
       body: formDataToSend, // ⚠️ ne pas ajouter de headers !
     })

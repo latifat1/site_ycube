@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import React, { useState } from "react"
 import { ChevronLeft, ChevronRight, Clock } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -18,22 +18,22 @@ export function Calendar({ selectedDate, onDateChange, selectedTime, onTimeChang
   // Get available time slots based on selected date
   const getAvailableTimeSlots = (date: Date) => {
     const dayOfWeek = date.getDay() // 0 = Sunday, 1 = Monday, etc.
-    
+
     // Mardi (2) : 9H, 11H
     if (dayOfWeek === 2) {
       return ["09:00", "11:00"]
     }
-    
+
     // Mercredi (3) : 10H, 12H
     if (dayOfWeek === 3) {
       return ["10:00", "12:00"]
     }
-    
+
     // Jeudi (4) : 9H, 11H
     if (dayOfWeek === 4) {
       return ["09:00", "11:00"]
     }
-    
+
     // Autres jours : pas de créneaux disponibles
     return []
   }
@@ -87,13 +87,13 @@ export function Calendar({ selectedDate, onDateChange, selectedTime, onTimeChang
   const handleDateClick = (day: number) => {
     const newDate = new Date(year, month, day)
     const dayOfWeek = newDate.getDay()
-    
+
     // Only allow selecting Tuesday (2), Wednesday (3), Thursday (4)
     const isAllowedDay = dayOfWeek === 2 || dayOfWeek === 3 || dayOfWeek === 4
-    
+
     // Don't allow selecting dates in the past
     const isNotPast = newDate >= new Date(new Date().setHours(0, 0, 0, 0))
-    
+
     if (isNotPast && isAllowedDay) {
       onDateChange(newDate)
       // Automatically switch to time selection after date is selected
@@ -134,7 +134,7 @@ export function Calendar({ selectedDate, onDateChange, selectedTime, onTimeChang
     const dayOfWeek = new Date(year, month, day).getDay()
     const isAllowedDay = dayOfWeek === 2 || dayOfWeek === 3 || dayOfWeek === 4
     const isDisabled = isPastDay || !isAllowedDay
-    
+
     calendarDays.push(
       <button
         key={day}
@@ -170,7 +170,7 @@ export function Calendar({ selectedDate, onDateChange, selectedTime, onTimeChang
           <strong>Rendez-vous disponibles :</strong> Mardi (9H, 11H), Mercredi (10H, 12H), Jeudi (9H, 11H)
         </p>
       </div>
-      
+
       {/* Toggle between date and time selection */}
       {selectedDate && (
         <div className="flex space-x-2 mb-4">

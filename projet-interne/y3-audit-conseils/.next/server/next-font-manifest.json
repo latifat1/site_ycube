@@ -1,78 +1,72 @@
 {
   "app": {
-    "[project]/projet-interne/y3-audit-conseils/app/_not-found/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/_not-found/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/a-propos/nos-valeurs/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/a-propos/nos-valeurs/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/a-propos/notre-equipe/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/a-propos/notre-equipe/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/a-propos/notre-histoire/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/a-propos/notre-histoire/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/actualites/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/actualites/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/admin-login/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/contact/rendez-vous/confirmation/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/admin/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/contact/rendez-vous/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/contact/rendez-vous/confirmation/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/donnees/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/contact/rendez-vous/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/insights/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/donnees/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/mentions-legales/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/insights/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/mentions-legales/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/politique-de-confidentialite/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/politique-de-confidentialite/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/audit/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/comptabilite/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/audit/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/conseil-en-gestion/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/comptabilite/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/conseil-en-risques/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/conseil-en-gestion/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/conseil-financier/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/conseil-en-risques/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/conseil-fiscal/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/conseil-financier/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/conseil-operationnel/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/conseil-fiscal/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/expertise-comptable/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/conseil-operationnel/page": [
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
-    ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/expertise-comptable/page": [
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
-    ],
-    "[project]/projet-interne/y3-audit-conseils/app/services/nos-metiers/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/services/nos-metiers/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ]
   },

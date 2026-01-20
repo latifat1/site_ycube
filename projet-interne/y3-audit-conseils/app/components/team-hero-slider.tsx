@@ -23,7 +23,7 @@ export function TeamHeroSlider() {
       title: "Notre équipe d'experts",
       subtitle: "",
       description: "",
-      image: "/boss.jpg",
+      image: "/Expert.jpg",
       buttonText: "",
     },
     {
@@ -96,7 +96,7 @@ export function TeamHeroSlider() {
   }
 
   return (
-    <div className="relative h-[900px] overflow-hidden -mx-4 -mt-32 z-40" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat"}}>
+    <div className="relative h-[900px] overflow-hidden -mx-4 -mt-32 z-40" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
       {slides.map((slide, index) => (
         <div
           key={slide.id}

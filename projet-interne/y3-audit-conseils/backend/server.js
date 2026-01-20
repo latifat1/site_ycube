@@ -8,7 +8,9 @@ require('dotenv').config();
 const app = express();
 
 // ✅ Autoriser le frontend à communiquer avec ce backend
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ 
+  origin: process.env.FRONTEND_URL || "http://localhost:3000"
+}));
 
 // ✅ Pour recevoir les requêtes JSON
 app.use(express.json());

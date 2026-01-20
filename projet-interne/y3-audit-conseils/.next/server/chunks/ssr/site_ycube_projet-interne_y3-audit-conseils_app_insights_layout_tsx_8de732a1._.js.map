@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../../site_ycube/projet-interne/y3-audit-conseils/app/insights/layout.tsx"],"sourcesContent":["export default function InsightsLayout({\n  children,\n}: {\n  children: React.ReactNode\n}) {\n  return children\n}\n"],"names":[],"mappings":"uCAAe,SAAS,EAAe,UACrC,CAAQ,CAGT,EACC,OAAO,CACT"}

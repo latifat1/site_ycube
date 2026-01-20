@@ -12,7 +12,7 @@ const experts = [
     id: 1,
     name: "Georges Yao Yao",
     position: "Associé Fondateur",
-    image: "/professional-male-accountant.png",
+    image: "/placeholder.svg",
     slug: "Georges Yao Yao",
     isPartner: true,
   },
@@ -20,7 +20,7 @@ const experts = [
     id: 2,
     name: "Yves Dodo",
     position: "Associée",
-    image: "/professional-female-auditor.png",
+    image: "/placeholder.svg",
     slug: "Yves Dodo",
     isPartner: true,
   },
@@ -28,7 +28,7 @@ const experts = [
     id: 3,
     name: "Philippe Martin",
     position: "Associé",
-    image: "/professional-male-tax-advisor.png",
+    image: "/placeholder.svg",
     slug: "philippe-martin",
     isPartner: true,
   },
@@ -36,7 +36,7 @@ const experts = [
     id: 4,
     name: "Sophie Dubois",
     position: "Manager Senior",
-    image: "/professional-female-accountant.png",
+    image: "/placeholder.svg",
     slug: "sophie-dubois",
     isPartner: false,
   },
@@ -44,7 +44,7 @@ const experts = [
     id: 5,
     name: "Thomas Leroy",
     position: "Manager Audit",
-    image: "/placeholder-t2p7o.png",
+    image: "/placeholder.svg",
     slug: "thomas-leroy",
     isPartner: false,
   },
@@ -126,11 +126,11 @@ export function ExpertCarousel() {
           <div key={expert.id} className="w-full flex-shrink-0">
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 p-4">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#80C342]">
-                <Image 
-                  src={expert.image || "/placeholder.svg"} 
-                  alt={expert.name} 
-                  fill 
-                  className="object-cover" 
+                <Image
+                  src={expert.image || "/placeholder.svg"}
+                  alt={expert.name}
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div className="text-center md:text-left md:max-w-md">
@@ -177,9 +177,8 @@ export function ExpertCarousel() {
               setCurrentIndex(index)
               setTimeout(() => setIsAnimating(false), 500)
             }}
-            className={`w-3 h-3 rounded-full ${
-              index === currentIndex ? "bg-[#80C342]" : "bg-gray-300"
-            } transition-colors`}
+            className={`w-3 h-3 rounded-full ${index === currentIndex ? "bg-[#80C342]" : "bg-gray-300"
+              } transition-colors`}
             aria-label={`Aller à l'expert ${index + 1}`}
           />
         ))}

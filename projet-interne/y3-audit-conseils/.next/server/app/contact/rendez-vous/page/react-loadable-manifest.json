@@ -1,15 +1,15 @@
 {
-  "97456": {
-    "id": 97456,
+  "80696": {
+    "id": 80696,
     "files": [
-      "static/chunks/c02cf18441cc4ef8.js"
+      "static/chunks/605df88c367ad013.js"
     ]
   },
-  "60135": {
-    "id": 60135,
+  "80367": {
+    "id": 80367,
     "files": [
-      "static/chunks/d8657300aef93a27.js",
-      "static/chunks/c0ef374682060db1.js"
+      "static/chunks/898b31319469b04f.js",
+      "static/chunks/7ab2cab5839d5895.js"
     ]
   }
 }

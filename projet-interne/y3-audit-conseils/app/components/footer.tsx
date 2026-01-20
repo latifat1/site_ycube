@@ -19,31 +19,31 @@ export function Footer() {
     window.open('https://www.google.com/maps/search/M\'Badon+Avenue+Jean+Malan+Cocody+Riviera', '_blank')
   }
 
- const handleNewsletterSubmit = async (e: React.FormEvent) => {
-  e.preventDefault()
-  setIsSubmitting(true)
+  const handleNewsletterSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
 
-  try {
-    const res = await fetch("http://localhost:5000/send-newsletter", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email }),
-    })
+    try {
+      const res = await fetch(`${window.location.origin}/api/send-newsletter`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      })
 
-    if (res.ok) {
-      setIsSubmitted(true)
-      setEmail("")
-      setTimeout(() => setIsSubmitted(false), 3000)
-    } else {
-      alert("Erreur lors de l'envoi de l'inscription.")
+      if (res.ok) {
+        setIsSubmitted(true)
+        setEmail("")
+        setTimeout(() => setIsSubmitted(false), 3000)
+      } else {
+        alert("Erreur lors de l'envoi de l'inscription.")
+      }
+    } catch (error) {
+      console.error("Erreur :", error)
+      alert("Impossible de contacter le serveur.")
+    } finally {
+      setIsSubmitting(false)
     }
-  } catch (error) {
-    console.error("Erreur :", error)
-    alert("Impossible de contacter le serveur.")
-  } finally {
-    setIsSubmitting(false)
   }
-}
 
 
   return (
@@ -61,7 +61,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center">
-                <button 
+                <button
                   onClick={() => {
                     const url = 'https://mail.google.com/mail/?view=cm&fs=1&to=hello@ycubeac.com';
                     window.open(url, '_blank');
@@ -82,7 +82,7 @@ export function Footer() {
                 <Clock size={18} className="mr-2 text-[#80C342]" />
                 <span className="text-gray-300">Lun - Ven: 8h - 18h</span>
               </li> */}
-              
+
             </ul>
           </div>
 
@@ -125,11 +125,11 @@ export function Footer() {
               )}
             </div>
             <div className="mt-6">
-              <a 
-                href="https://www.linkedin.com/company/y3-audit-conseils/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-white hover:text-[#80C342] transition-colors" 
+              <a
+                href="https://www.linkedin.com/company/y3-audit-conseils/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-[#80C342] transition-colors"
                 aria-label="LinkedIn"
               >
                 <LinkedInLogo size={26} />

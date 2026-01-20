@@ -1,14 +1,5 @@
-[00:00:07.781] Server  LOG     ✓ Ready in 5.9s
-[00:00:10.821] Server  LOG     ○ Compiling / ...
-[00:00:18.819] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.562] Browser WARN    Image with src "/Logo-y3.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:21.685] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Logo-y3.png" "received" null
-[00:00:21.687] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Experts.jpg" "received" null
-[00:00:21.717] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Expert.jpg" "received" null
-[00:00:21.723] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/expertises.jpg" "received" null
-[00:00:21.872] Server  ERROR   Error: The requested resource isn't a valid image.
-[00:00:21.915] Server  ERROR   Error: The requested resource isn't a valid image.
-[00:00:21.937] Server  ERROR   Error: The requested resource isn't a valid image.
-[00:00:21.972] Server  ERROR   Error: The requested resource isn't a valid image.
-[00:00:25.828] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/histoire1.jpg" "received" null
-[00:00:26.017] Server  ERROR   Error: The requested resource isn't a valid image.
+[00:00:01.487] Server  LOG     ✓ Ready in 1020ms
+[00:00:13.725] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:15.271] Server  LOG       Reload env: .env.local
+[00:03:16.134] Server  LOG       Reload env: .env.local

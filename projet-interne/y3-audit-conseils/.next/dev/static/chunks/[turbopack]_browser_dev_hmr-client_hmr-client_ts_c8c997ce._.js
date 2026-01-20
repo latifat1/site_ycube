@@ -250,12 +250,14 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
         };
     }
     if (updateA.type === 'partial' && updateB.type === 'partial') {
-        var _updateA_added, _updateB_added;
+        var _updateA_added;
+        var _updateB_added;
         const added = new Set([
             ...(_updateA_added = updateA.added) !== null && _updateA_added !== void 0 ? _updateA_added : [],
             ...(_updateB_added = updateB.added) !== null && _updateB_added !== void 0 ? _updateB_added : []
         ]);
-        var _updateA_deleted, _updateB_deleted;
+        var _updateA_deleted;
+        var _updateB_deleted;
         const deleted = new Set([
             ...(_updateA_deleted = updateA.deleted) !== null && _updateA_deleted !== void 0 ? _updateA_deleted : [],
             ...(_updateB_deleted = updateB.deleted) !== null && _updateB_deleted !== void 0 ? _updateB_deleted : []
@@ -281,7 +283,8 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
         };
     }
     if (updateA.type === 'added' && updateB.type === 'partial') {
-        var _updateA_modules1, _updateB_added1;
+        var _updateA_modules1;
+        var _updateB_added1;
         const modules = new Set([
             ...(_updateA_modules1 = updateA.modules) !== null && _updateA_modules1 !== void 0 ? _updateA_modules1 : [],
             ...(_updateB_added1 = updateB.added) !== null && _updateB_added1 !== void 0 ? _updateB_added1 : []

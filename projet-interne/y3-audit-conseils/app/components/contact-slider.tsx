@@ -23,7 +23,7 @@ export function ContactSlider() {
       id: 1,
       title: "Contactez-nous",
       description: "Nous sommes là pour vous accompagner dans vos projets.",
-      image: "/contact1.jpg",
+      image: "/Expert.jpg",
       buttonText: "Prendre rendez-vous",
       buttonLink: "/contact/rendez-vous",
       priority: true,
@@ -32,7 +32,7 @@ export function ContactSlider() {
       id: 2,
       title: "Notre bureau",
       description: "Situé à Cocody, Riviera, nous vous accueillons dans nos locaux.",
-      image: "/contact2.jpg",
+      image: "/Experts.jpg",
       buttonText: "Nous trouver",
       buttonLink: "/contact/nous-trouver",
       priority: true,
@@ -41,7 +41,7 @@ export function ContactSlider() {
       id: 3,
       title: "Échangeons",
       description: "Une question ? Un projet ? N'hésitez pas à nous contacter.",
-      image: "/contact3.jpg",
+      image: "/expertises.jpg",
       buttonText: "Nous écrire",
       buttonLink: "mailto:hello@ycubeac.com",
       priority: true,
@@ -100,7 +100,7 @@ export function ContactSlider() {
   }
 
   return (
-    <div className="relative h-[900px] overflow-hidden -mx-4 -mt-20" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat"}}>
+    <div className="relative h-[900px] overflow-hidden -mx-4 -mt-20" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
       {slides.map((slide, index) => (
         <div
           key={slide.id}
