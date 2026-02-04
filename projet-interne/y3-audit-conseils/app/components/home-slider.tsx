@@ -23,7 +23,7 @@ export function HomeSlider() {
       id: 1,
       title: "Y3 Audit & Conseils",
       description: "Votre partenaire de confiance pour l'audit et le conseil en Côte d'Ivoire.",
-      image: "/home1.jpg",
+      image: "/images/home1.jpg",
       buttonText: "Découvrir nos services",
       buttonLink: "/services",
       priority: true,
@@ -32,7 +32,7 @@ export function HomeSlider() {
       id: 2,
       title: "Excellence & Expertise",
       description: "Plus de 20 ans d'expérience au service de nos clients.",
-      image: "/home2.jpg",
+      image: "/images/home2.jpg",
       buttonText: "Notre équipe",
       buttonLink: "/a-propos/notre-equipe",
       priority: true,
@@ -41,7 +41,7 @@ export function HomeSlider() {
       id: 3,
       title: "Innovation & Proximité",
       description: "Des solutions adaptées à vos besoins spécifiques.",
-      image: "/home3.jpg",
+      image: "/images/home3.jpg",
       buttonText: "Nous contacter",
       buttonLink: "/contact",
       priority: true,
@@ -100,7 +100,7 @@ export function HomeSlider() {
   }
 
   return (
-    <div className="relative h-[900px] overflow-hidden -mx-4 -mt-20" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat"}}>
+    <div className="relative h-[900px] overflow-hidden -mx-4 -mt-20" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
       {slides.map((slide, index) => (
         <div
           key={slide.id}

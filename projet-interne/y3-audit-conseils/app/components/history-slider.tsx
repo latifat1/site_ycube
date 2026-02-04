@@ -23,7 +23,7 @@ export function HistorySlider() {
       id: 1,
       title: "Notre histoire",
       description: "Découvrez l'évolution de Y3 Audit & Conseils depuis sa création.",
-      image: "/histoire1.jpg",
+      image: "/images/histoire1.jpg",
       buttonText: "Notre vision",
       buttonLink: "#vision",
       priority: true,

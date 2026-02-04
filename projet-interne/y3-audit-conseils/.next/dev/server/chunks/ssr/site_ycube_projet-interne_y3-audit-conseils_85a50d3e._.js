@@ -39,7 +39,7 @@ function MainSlider({ slides: customSlides } = {}) {
             id: 1,
             title: "Bienvenue chez Y3 Audit & Conseils",
             description: "Votre partenaire de confiance pour l'audit, le conseil et l'expertise comptable.",
-            image: "/Expert.jpg",
+            image: "/images/Expert.jpg",
             buttonText: "Nos services",
             buttonLink: "/services",
             priority: true
@@ -48,7 +48,7 @@ function MainSlider({ slides: customSlides } = {}) {
             id: 2,
             title: "Des experts à votre écoute",
             description: "Une équipe pluridisciplinaire pour répondre à tous vos besoins.",
-            image: "/Experts.jpg",
+            image: "/images/Experts.jpg",
             buttonText: "Découvrir l'équipe",
             buttonLink: "/a-propos/notre-equipe",
             priority: true
@@ -57,7 +57,7 @@ function MainSlider({ slides: customSlides } = {}) {
             id: 3,
             title: "Une expertise reconnue",
             description: "Audit, expertise comptable et conseil financier.",
-            image: "/expertises.jpg",
+            image: "/images/expertises.jpg",
             buttonText: "Nos domaines d'expertise",
             buttonLink: "/services/expertise-sectorielle",
             priority: true

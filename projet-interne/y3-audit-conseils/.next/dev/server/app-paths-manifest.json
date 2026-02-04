@@ -1,5 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/send-newsletter/route": "app/api/send-newsletter/route.js",
-  "/page": "app/page.js"
+  "/a-propos/notre-histoire/page": "app/a-propos/notre-histoire/page.js",
+  "/contact/rendez-vous/page": "app/contact/rendez-vous/page.js",
+  "/page": "app/page.js",
+  "/rejoignez-nous/candidature/page": "app/rejoignez-nous/candidature/page.js",
+  "/rejoignez-nous/carrieres/page": "app/rejoignez-nous/carrieres/page.js"
 }

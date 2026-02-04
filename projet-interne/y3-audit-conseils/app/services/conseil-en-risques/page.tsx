@@ -44,7 +44,7 @@ export default function ConseilEnRisquesPage() {
           </div>
           <div className="relative aspect-video overflow-hidden rounded-lg">
             <Image
-              src="/Conseil-en-Risques.jpeg"
+              src="/images/Conseil-en-Risques.jpeg"
               alt="Gestion des risques"
               fill
               className="object-cover rounded-lg shadow-lg"
@@ -55,7 +55,7 @@ export default function ConseilEnRisquesPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative aspect-video overflow-hidden rounded-lg order-2 lg:order-1">
             <Image
-              src="/Conformité-réglementaire.jpeg"
+              src="/images/Conformité-réglementaire.jpeg"
               alt="Conformité réglementaire"
               fill
               className="object-cover rounded-lg shadow-lg"

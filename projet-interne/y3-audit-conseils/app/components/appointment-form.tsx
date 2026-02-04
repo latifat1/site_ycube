@@ -79,11 +79,11 @@ export function AppointmentForm({ selectedDate, selectedTime }: AppointmentFormP
     try {
       const formattedDate = selectedDate
         ? selectedDate.toLocaleDateString("fr-FR", {
-            weekday: "long",
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })
         : ""
 
       const emailBody = `Bonjour,
@@ -321,13 +321,9 @@ ${formData.firstName} ${formData.lastName}`
 
       <button
         type="submit"
-        disabled={isSubmitting || !selectedDate || !selectedTime}
-        className={cn(
-          "w-full inline-flex items-center justify-center rounded-md bg-[#80C342] px-4 xs:px-5 py-2.5 xs:py-3 text-sm xs:text-base sm:text-lg text-white font-semibold hover:bg-[#6aa32b] focus:outline-none focus:ring-2 focus:ring-[#548623] disabled:cursor-not-allowed disabled:bg-gray-300 disabled:text-gray-600",
-          isSubmitting ? "opacity-75" : ""
-        )}
+        disabled={true}
+        className="w-full inline-flex items-center justify-center rounded-md bg-gray-300 px-4 xs:px-5 py-2.5 xs:py-3 text-sm xs:text-base sm:text-lg text-gray-600 font-semibold cursor-not-allowed focus:outline-none"
       >
-        {isSubmitting && <Loader2 className="mr-2 h-4 w-4 xs:h-5 xs:w-5 animate-spin" />}
         Prendre rendez-vous
       </button>
     </form>

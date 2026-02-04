@@ -23,7 +23,7 @@ export function TeamHeroSlider() {
       title: "Notre équipe d'experts",
       subtitle: "",
       description: "",
-      image: "/Expert.jpg",
+      image: "/images/Expert.jpg",
       buttonText: "",
     },
     {
@@ -31,7 +31,7 @@ export function TeamHeroSlider() {
       title: "Expertise et savoir-faire",
       subtitle: "",
       description: "",
-      image: "/Expert.jpg",
+      image: "/images/Expert.jpg",
       buttonText: "Nos experts",
     },
     {
@@ -39,7 +39,7 @@ export function TeamHeroSlider() {
       title: "Accompagnement personnalisé",
       subtitle: "",
       description: "",
-      image: "/Experts.jpg",
+      image: "/images/Experts.jpg",
       buttonText: "Nos services",
     },
   ]

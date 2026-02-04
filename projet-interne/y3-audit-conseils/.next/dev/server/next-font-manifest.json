@@ -1,9 +1,18 @@
 {
   "app": {
-    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/_not-found/page": [
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/a-propos/notre-histoire/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/contact/rendez-vous/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
     "[project]/site_ycube/projet-interne/y3-audit-conseils/app/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ]
   },

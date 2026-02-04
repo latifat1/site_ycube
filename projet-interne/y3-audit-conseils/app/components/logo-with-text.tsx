@@ -11,7 +11,7 @@ export function LogoWithText({ className, imageClassName, textClassName }: LogoW
   return (
     <Link href="/" className={`flex items-center ${className || ""}`}>
       <Image
-        src="/Logo-y3.png"
+        src="/images/Logo-y3.png"
         alt="Y3 Audit & Conseils"
         width={200}
         height={100}

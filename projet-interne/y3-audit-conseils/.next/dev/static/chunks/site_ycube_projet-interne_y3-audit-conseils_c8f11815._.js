@@ -82,7 +82,7 @@ function MainSlider() {
             id: 1,
             title: "Bienvenue chez Y3 Audit & Conseils",
             description: "Votre partenaire de confiance pour l'audit, le conseil et l'expertise comptable.",
-            image: "/Expert.jpg",
+            image: "/images/Expert.jpg",
             buttonText: "Nos services",
             buttonLink: "/services",
             priority: true
@@ -91,7 +91,7 @@ function MainSlider() {
             id: 2,
             title: "Des experts à votre écoute",
             description: "Une équipe pluridisciplinaire pour répondre à tous vos besoins.",
-            image: "/Experts.jpg",
+            image: "/images/Experts.jpg",
             buttonText: "Découvrir l'équipe",
             buttonLink: "/a-propos/notre-equipe",
             priority: true
@@ -100,7 +100,7 @@ function MainSlider() {
             id: 3,
             title: "Une expertise reconnue",
             description: "Audit, expertise comptable et conseil financier.",
-            image: "/expertises.jpg",
+            image: "/images/expertises.jpg",
             buttonText: "Nos domaines d'expertise",
             buttonLink: "/services/expertise-sectorielle",
             priority: true
@@ -291,7 +291,7 @@ function CarrieresPage() {
             id: 1,
             title: "Carrières",
             description: "Rejoignez notre équipe et développez votre carrière dans un environnement stimulant.",
-            image: "/17.png",
+            image: "/images/17.png",
             buttonText: "Voir les offres",
             buttonLink: "/rejoignez-nous/carrieres",
             priority: true
@@ -320,20 +320,20 @@ function CarrieresPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 29,
-                                    columnNumber: 11
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "w-20 h-1 bg-[#80C342]"
                                 }, void 0, false, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 30,
-                                    columnNumber: 11
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                             lineNumber: 28,
-                            columnNumber: 9
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mb-16",
@@ -348,7 +348,7 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 36,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl text-gray-700 mb-4",
@@ -356,7 +356,7 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 37,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl text-gray-700 mb-4",
@@ -364,7 +364,7 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 43,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl text-gray-700 mb-4",
@@ -372,23 +372,23 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 49,
-                                            columnNumber: 16
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 35,
-                                    columnNumber: 13
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                 lineNumber: 34,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                             lineNumber: 33,
-                            columnNumber: 9
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mb-16",
@@ -403,14 +403,14 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 79,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "w-20 h-1 bg-[#80C342] mb-6"
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 80,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl text-gray-200 mb-4",
@@ -418,7 +418,7 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 81,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-xl text-gray-200 mb-4",
@@ -426,23 +426,23 @@ function CarrieresPage() {
                                         }, void 0, false, {
                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                             lineNumber: 84,
-                                            columnNumber: 15
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 78,
-                                    columnNumber: 13
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                 lineNumber: 77,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                             lineNumber: 76,
-                            columnNumber: 9
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "text-center",
@@ -453,7 +453,7 @@ function CarrieresPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 113,
-                                    columnNumber: 11
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-700 mb-8 max-w-2xl mx-auto",
@@ -461,7 +461,7 @@ function CarrieresPage() {
                                 }, void 0, false, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 114,
-                                    columnNumber: 11
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex flex-col sm:flex-row justify-center gap-4",
@@ -472,24 +472,24 @@ function CarrieresPage() {
                                     }, void 0, false, {
                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                         lineNumber: 120,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                                     lineNumber: 119,
-                                    columnNumber: 11
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                             lineNumber: 112,
-                            columnNumber: 9
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",
                     lineNumber: 27,
-                    columnNumber: 7
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/carrieres/page.tsx",

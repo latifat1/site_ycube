@@ -116,10 +116,10 @@ export function Footer() {
                   </div>
                   <button
                     type="submit"
-                    disabled={isSubmitting}
-                    className="w-full bg-[#80C342] hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed text-white py-1.5 px-2 sm:px-4 rounded-md transition-colors text-xs sm:text-sm sm:text-base"
+                    disabled={true}
+                    className="w-full bg-gray-400 text-gray-600 py-1.5 px-2 sm:px-4 rounded-md cursor-not-allowed text-xs sm:text-sm sm:text-base"
                   >
-                    {isSubmitting ? "Inscription..." : "S'abonner"}
+                    S'abonner
                   </button>
                 </form>
               )}

@@ -23,7 +23,7 @@ export function ServicesSlider() {
       id: 1,
       title: "Nos services",
       description: "Découvrez notre gamme complète de services d'audit et de conseil.",
-      image: "/services1.png",
+      image: "/images/services1.png",
       buttonText: "En savoir plus",
       buttonLink: "#services",
       priority: true,
@@ -32,7 +32,7 @@ export function ServicesSlider() {
       id: 2,
       title: "Audit & Expertise",
       description: "Des missions d'audit rigoureuses et des conseils d'experts.",
-      image: "/Experts.jpg",
+      image: "/images/Experts.jpg",
       buttonText: "Nos services",
       buttonLink: "/services",
       priority: true,
@@ -41,7 +41,7 @@ export function ServicesSlider() {
       id: 3,
       title: "Conseil & Accompagnement",
       description: "Un accompagnement personnalisé pour vos projets.",
-      image: "/expertises.jpg",
+      image: "/images/expertises.jpg",
       buttonText: "Nous contacter",
       buttonLink: "/contact",
       priority: true,
@@ -100,7 +100,7 @@ export function ServicesSlider() {
   }
 
   return (
-    <div className="relative w-full h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] xl:h-[900px] 2xl:h-[1000px] overflow-hidden -mx-4 -mt-20" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat"}}>
+    <div className="relative w-full h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] xl:h-[900px] 2xl:h-[1000px] overflow-hidden -mx-4 -mt-20" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ backgroundImage: `url('${slides[currentSlide].image}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
       {slides.map((slide, index) => (
         <div
           key={slide.id}

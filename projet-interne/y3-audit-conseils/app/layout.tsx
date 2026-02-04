@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   title: "Y3 Audit & Conseils",
   description: "Cabinet d'expertise comptable et de conseil",
   icons: {
-    icon: "/Logo-y3.png",
-    shortcut: "/Logo-y3.png",
-    apple: "/Logo-y3.png",
+    icon: "/images/Logo-y3.png",
+    shortcut: "/images/Logo-y3.png",
+    apple: "/images/Logo-y3.png",
   },
 }
 

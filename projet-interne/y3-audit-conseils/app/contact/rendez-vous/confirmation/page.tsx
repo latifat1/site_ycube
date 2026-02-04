@@ -9,7 +9,7 @@ const slides: Slide[] = [
   {
     title: "Merci pour votre confiance !",
     description: "Votre demande de rendez-vous a été confirmée.",
-    image: "/22.png",
+    image: "/images/22.png",
     id: 0,
     buttonText: "",
     buttonLink: "",
@@ -20,14 +20,14 @@ const slides: Slide[] = [
 export default function ConfirmationPage() {
   return (
     <main className="min-h-screen bg-gray-50">
-      
+
       {/* MainSlider avec header confondu */}
       <section>
         <MainSlider slides={slides} />
       </section>
 
       {/* Section de confirmation centrée */}
-      <section className="flex flex-col items-center justify-center px-4 -mt-20 md:-mt-32"> 
+      <section className="flex flex-col items-center justify-center px-4 -mt-20 md:-mt-32">
         {/* -mt pour remonter légèrement au milieu du slider */}
         <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
           <div className="flex flex-col items-center text-center mb-8">

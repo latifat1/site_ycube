@@ -2,8 +2,8 @@
 
 import { useState } from "react"
 import { MainSlider, type Slide } from "../components/main-slider"
-import { 
-  TrendingUp, Users, Award, ArrowRight, Calendar, Clock, Eye, Download, 
+import {
+  TrendingUp, Users, Award, ArrowRight, Calendar, Clock, Eye, Download,
   BookOpen, FileText, Newspaper, CheckCircle, Globe
 } from "lucide-react"
 
@@ -13,13 +13,13 @@ export default function InsightsPage() {
       id: 1,
       title: "Insights & Analyses",
       description: "Découvrez nos analyses exclusives et rapports d'experts sur l'évolution du secteur.",
-      image: "/expertises.jpg",
+      image: "/images/expertises.jpg",
       buttonText: "Découvrir nos insights",
       buttonLink: "/insights",
       priority: true,
     },
   ]
-  
+
   const [activeFilter, setActiveFilter] = useState('all')
 
   const filters = [
@@ -114,7 +114,7 @@ export default function InsightsPage() {
   return (
     <main className="bg-white">
       <MainSlider slides={insightsSlides} />
-      
+
       {/* Hero Section - Style Weblium */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -123,13 +123,13 @@ export default function InsightsPage() {
               <CheckCircle className="mr-2" size={16} />
               Contenu Expert & Actualisé
             </div>
-            
+
             <h1 className="text-5xl md:text-6xl font-bold text-[#073E5D] mb-6 leading-tight">
               Insights & Analyses - NOUVEAU DESIGN
             </h1>
-            
+
             <p className="text-xl text-gray-600 leading-relaxed mb-12 max-w-3xl mx-auto">
-              Découvrez nos analyses exclusives, rapports d'experts et insights sur l'évolution 
+              Découvrez nos analyses exclusives, rapports d'experts et insights sur l'évolution
               du secteur de l'audit et du conseil en Côte d'Ivoire.
             </p>
 
@@ -181,7 +181,7 @@ export default function InsightsPage() {
                     <div className="text-sm font-medium">{item.category}</div>
                   </div>
                 </div>
-                
+
                 <div className="p-8">
                   {/* Badge et date */}
                   <div className="flex items-center justify-between mb-4">
@@ -250,7 +250,7 @@ export default function InsightsPage() {
               Explorez notre collection complète d'analyses et de rapports
             </p>
           </div>
-          
+
           {/* Filtres simplifiés */}
           <div className="flex flex-wrap gap-3 justify-center mb-16">
             {filters.map((filter) => {
@@ -259,11 +259,10 @@ export default function InsightsPage() {
                 <button
                   key={filter.id}
                   onClick={() => setActiveFilter(filter.id)}
-                  className={`flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
-                    activeFilter === filter.id
+                  className={`flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300 ${activeFilter === filter.id
                       ? 'bg-[#073E5D] text-white'
                       : 'bg-gray-100 text-gray-700 hover:bg-[#80C342] hover:text-white'
-                  }`}
+                    }`}
                 >
                   <Icon size={18} className="mr-2" />
                   <span className="mr-2">{filter.label}</span>
@@ -284,7 +283,7 @@ export default function InsightsPage() {
               >
                 {/* Header avec couleur de type */}
                 <div className={`h-2 bg-gradient-to-r ${getTypeColor(item.type)}`}></div>
-                
+
                 <div className="p-6">
                   {/* Type et date */}
                   <div className="flex items-center justify-between mb-4">
@@ -294,12 +293,12 @@ export default function InsightsPage() {
                     </span>
                     <span className="text-sm text-gray-500">{item.date}</span>
                   </div>
-                  
+
                   {/* Titre */}
                   <h3 className="text-xl font-bold text-[#073E5D] mb-3 leading-tight">
                     {item.title}
                   </h3>
-                  
+
                   {/* Description */}
                   <p className="text-gray-600 mb-4 leading-relaxed">
                     {item.description}
@@ -321,7 +320,7 @@ export default function InsightsPage() {
                       </div>
                     </div>
                   </div>
-                  
+
                   {/* Action button */}
                   <button className="w-full bg-gray-100 hover:bg-[#073E5D] hover:text-white text-gray-700 py-2 px-4 rounded-lg font-medium transition-colors duration-300">
                     {item.downloadUrl ? 'Télécharger' : 'Lire la suite'}
@@ -345,7 +344,7 @@ export default function InsightsPage() {
               <h3 className="text-3xl font-bold text-[#073E5D] mb-2">8K+</h3>
               <p className="text-gray-600">Lecteurs mensuels</p>
             </div>
-            
+
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-[#80C342] rounded-lg mb-4">
                 <Award size={32} className="text-white" />
@@ -353,7 +352,7 @@ export default function InsightsPage() {
               <h3 className="text-3xl font-bold text-[#073E5D] mb-2">4+</h3>
               <p className="text-gray-600">Publications expertes</p>
             </div>
-            
+
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-[#073E5D] rounded-lg mb-4">
                 <TrendingUp size={32} className="text-white" />

@@ -29,7 +29,7 @@ export default function NosValeursPage() {
           </div>
           <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="/philosophie.jpeg"
+              src="/images/philosophie.jpeg"
               alt="Philosophie de Y3 Audit & Conseils"
               fill
             />

@@ -44,7 +44,7 @@ export default function ComptabilitePage() {
           </div>
           <div className="relative h-[400px]">
             <Image
-              src="/tenue-comptable.webp"
+              src="/images/tenue-comptable.webp"
               alt="Tenue comptable"
               fill
               className="object-cover rounded-lg shadow-lg"
@@ -55,7 +55,7 @@ export default function ComptabilitePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-[400px] order-2 lg:order-1">
             <Image
-              src="/Déclarations-fiscales.webp"
+              src="/images/Déclarations-fiscales.webp"
               alt="Reporting financier"
               fill
               className="object-cover rounded-lg shadow-lg"

@@ -69,7 +69,7 @@
 //     <>
 //       <MainSlider slides={donneesSlides} />
 //       <main className="bg-white">
-        
+
 //         {/* Hero Section */}
 //         <section className="py-20 bg-white">
 //           <div className="container mx-auto px-4">
@@ -318,14 +318,14 @@ import { Card, CardContent } from "@/components/ui/card"
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell, Legend } from "recharts"
 
 export default function BankingPulsePage() {
-  usePageImage("/expertises.webp")
+  usePageImage("/images/expertises.webp")
 
   const slides: Slide[] = [
     {
       id: 1,
       title: "Banking Pulse 2024",
       description: "L’heure de la consolidation pour les banques cotées de l’UEMOA",
-      image: "/15.png",
+      image: "/images/15.png",
       buttonText: "Télécharger le rapport complet",
       buttonLink: "#",
       priority: true,
@@ -424,8 +424,8 @@ export default function BankingPulsePage() {
             <section className="mb-20">
               <h2 className="text-2xl md:text-3xl font-bold text-[#073E5D] mb-4">Performance financière</h2>
               <p className="text-gray-600 mb-8 max-w-3xl">
-                En 2023, les banques cotées ont enregistré une croissance du **PNB de +4,8 %**, du **résultat d’exploitation de +11,7 %**, 
-                tandis que le **coût du risque** a progressé de +8,5 %. Le **rendement des capitaux propres (ROE)** atteint **23,4 %**, 
+                En 2023, les banques cotées ont enregistré une croissance du **PNB de +4,8 %**, du **résultat d’exploitation de +11,7 %**,
+                tandis que le **coût du risque** a progressé de +8,5 %. Le **rendement des capitaux propres (ROE)** atteint **23,4 %**,
                 confirmant la résilience du secteur.
               </p>
 
@@ -474,9 +474,9 @@ export default function BankingPulsePage() {
             <section className="pb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-[#073E5D] mb-4">Perspectives 2024</h2>
               <p className="text-gray-600 max-w-3xl leading-relaxed">
-                Les perspectives du secteur restent positives, portées par la digitalisation, l’inclusion financière 
-                et l’intégration régionale. Toutefois, la consolidation du marché et le renforcement des fonds propres 
-                demeurent des impératifs stratégiques. Les banques devront accélérer la transformation digitale 
+                Les perspectives du secteur restent positives, portées par la digitalisation, l’inclusion financière
+                et l’intégration régionale. Toutefois, la consolidation du marché et le renforcement des fonds propres
+                demeurent des impératifs stratégiques. Les banques devront accélérer la transformation digitale
                 et renforcer leur gestion des risques pour maintenir leur rentabilité à long terme.
               </p>
             </section>

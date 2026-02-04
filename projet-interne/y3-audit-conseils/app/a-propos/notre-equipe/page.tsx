@@ -196,7 +196,7 @@ export default function TeamPage() {
       id: 1,
       title: "Une équipe pluridisciplinaire",
       description: "Des experts à votre écoute pour répondre à tous vos besoins.",
-      image: "/histoire1.jpg",
+      image: "/images/histoire1.jpg",
       buttonText: "Découvrir l'équipe",
       buttonLink: "/a-propos/notre-equipe",
       priority: true,

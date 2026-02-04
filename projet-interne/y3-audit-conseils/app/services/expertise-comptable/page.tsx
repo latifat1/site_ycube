@@ -6,19 +6,19 @@ import { usePageImage } from "../../hooks/use-page-image"
 
 export default function ExpertiseComptablePage() {
   usePageImage('/services1.jpg')
-  
+
   const expertiseComptableSlides: Slide[] = [
     {
       id: 1,
       title: "Expertise Comptable",
       description: "Conformité, pilotage stratégique : transformez votre comptabilité en levier de performance.",
-      image: "/4A.png",
+      image: "/images/4A.png",
       buttonText: "Découvrir nos services",
       buttonLink: "/services/expertise-comptable",
       priority: true,
     },
   ]
-  
+
   return (
     <>
       <MainSlider slides={expertiseComptableSlides} />

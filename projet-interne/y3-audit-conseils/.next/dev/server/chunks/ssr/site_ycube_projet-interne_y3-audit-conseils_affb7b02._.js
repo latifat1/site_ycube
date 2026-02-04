@@ -95,7 +95,7 @@ function MainSlider({ slides: customSlides } = {}) {
             id: 1,
             title: "Bienvenue chez Y3 Audit & Conseils",
             description: "Votre partenaire de confiance pour l'audit, le conseil et l'expertise comptable.",
-            image: "/Expert.jpg",
+            image: "/images/Expert.jpg",
             buttonText: "Nos services",
             buttonLink: "/services",
             priority: true
@@ -104,7 +104,7 @@ function MainSlider({ slides: customSlides } = {}) {
             id: 2,
             title: "Des experts à votre écoute",
             description: "Une équipe pluridisciplinaire pour répondre à tous vos besoins.",
-            image: "/Experts.jpg",
+            image: "/images/Experts.jpg",
             buttonText: "Découvrir l'équipe",
             buttonLink: "/a-propos/notre-equipe",
             priority: true
@@ -113,7 +113,7 @@ function MainSlider({ slides: customSlides } = {}) {
             id: 3,
             title: "Une expertise reconnue",
             description: "Audit, expertise comptable et conseil financier.",
-            image: "/expertises.jpg",
+            image: "/images/expertises.jpg",
             buttonText: "Nos domaines d'expertise",
             buttonLink: "/services/expertise-sectorielle",
             priority: true
@@ -275,7 +275,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$inte
 var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/next@16.1.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$upload$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/lucide-react@0.454.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/upload.js [app-ssr] (ecmascript) <export default as Upload>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/lucide-react@0.454.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/circle-check-big.js [app-ssr] (ecmascript) <export default as CheckCircle>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/lucide-react@0.454.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-ssr] (ecmascript) <export default as Loader2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/lucide-react@0.454.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/user.js [app-ssr] (ecmascript) <export default as User>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/lucide-react@0.454.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/mail.js [app-ssr] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/site_ycube/projet-interne/y3-audit-conseils/node_modules/.pnpm/lucide-react@0.454.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/phone.js [app-ssr] (ecmascript) <export default as Phone>");
@@ -296,7 +295,7 @@ function CandidaturePage() {
             id: 1,
             title: "Candidature Spontanée",
             description: "Rejoignez notre équipe et développez votre carrière avec nous.",
-            image: "/Expert.jpg",
+            image: "/images/Expert.jpg",
             buttonText: "Postuler maintenant",
             buttonLink: "/rejoignez-nous/candidature",
             priority: true
@@ -450,20 +449,20 @@ ${formData.prenom} ${formData.nom}`;
                                     }, void 0, false, {
                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                         lineNumber: 164,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-20 h-1 bg-[#80C342] mb-6"
                                     }, void 0, false, {
                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                         lineNumber: 165,
-                                        columnNumber: 13
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                 lineNumber: 163,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "max-w-4xl mx-auto",
@@ -481,7 +480,7 @@ ${formData.prenom} ${formData.nom}`;
                                                     }, void 0, false, {
                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                         lineNumber: 173,
-                                                        columnNumber: 19
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "mb-6 xs:mb-8 text-gray-200 text-sm xs:text-base leading-6",
@@ -490,26 +489,26 @@ ${formData.prenom} ${formData.nom}`;
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 175,
-                                                                columnNumber: 44
+                                                                columnNumber: 46
                                                             }, this),
                                                             "à la recherche de talents",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 176,
-                                                                columnNumber: 46
+                                                                columnNumber: 48
                                                             }, this),
                                                             "pour renforcer nos équipes",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 177,
-                                                                columnNumber: 47
+                                                                columnNumber: 49
                                                             }, this),
                                                             "et accompagner notre développement."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                         lineNumber: 174,
-                                                        columnNumber: 19
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         className: "text-base xs:text-lg font-medium mb-3 xs:mb-4 text-[#80C342]",
@@ -517,7 +516,7 @@ ${formData.prenom} ${formData.nom}`;
                                                     }, void 0, false, {
                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                         lineNumber: 181,
-                                                        columnNumber: 19
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                                         className: "space-y-2 xs:space-y-3 mb-6 xs:mb-8",
@@ -530,7 +529,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 184,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         className: "whitespace-nowrap",
@@ -538,13 +537,13 @@ ${formData.prenom} ${formData.nom}`;
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 185,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 183,
-                                                                columnNumber: 21
+                                                                columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 className: "flex items-start",
@@ -554,20 +553,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 188,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: "Formation continue"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 189,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 187,
-                                                                columnNumber: 21
+                                                                columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 className: "flex items-start",
@@ -577,20 +576,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 192,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: "Évolution de carrière"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 193,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 191,
-                                                                columnNumber: 21
+                                                                columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                 className: "flex items-start",
@@ -600,39 +599,39 @@ ${formData.prenom} ${formData.nom}`;
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 196,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: "Ambiance conviviale"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 197,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 195,
-                                                                columnNumber: 21
+                                                                columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                         lineNumber: 182,
-                                                        columnNumber: 19
+                                                        columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "mt-auto"
                                                     }, void 0, false, {
                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                         lineNumber: 201,
-                                                        columnNumber: 19
+                                                        columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                 lineNumber: 172,
-                                                columnNumber: 17
+                                                columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "col-span-2 p-4 xs:p-6 sm:p-8 lg:p-10",
@@ -646,12 +645,12 @@ ${formData.prenom} ${formData.nom}`;
                                                             }, void 0, false, {
                                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                 lineNumber: 210,
-                                                                columnNumber: 25
+                                                                columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                             lineNumber: 209,
-                                                            columnNumber: 23
+                                                            columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                             className: "text-2xl font-semibold text-[#073E5D] mb-4",
@@ -659,7 +658,7 @@ ${formData.prenom} ${formData.nom}`;
                                                         }, void 0, false, {
                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                             lineNumber: 212,
-                                                            columnNumber: 23
+                                                            columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-gray-600 text-center mb-6 max-w-md",
@@ -667,20 +666,20 @@ ${formData.prenom} ${formData.nom}`;
                                                         }, void 0, false, {
                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                             lineNumber: 213,
-                                                            columnNumber: 23
+                                                            columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "w-16 h-1 bg-[#80C342] mx-auto"
                                                         }, void 0, false, {
                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                             lineNumber: 216,
-                                                            columnNumber: 23
+                                                            columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                     lineNumber: 208,
-                                                    columnNumber: 21
+                                                    columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -689,7 +688,7 @@ ${formData.prenom} ${formData.nom}`;
                                                         }, void 0, false, {
                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                             lineNumber: 220,
-                                                            columnNumber: 23
+                                                            columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                                             onSubmit: handleSubmit,
@@ -708,7 +707,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 225,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                     className: "relative",
@@ -724,20 +723,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 229,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
                                                                                             className: "absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 241,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 228,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 errors.nom && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                     className: "mt-1 text-sm text-red-500",
@@ -745,13 +744,13 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 243,
-                                                                                    columnNumber: 40
+                                                                                    columnNumber: 46
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 224,
-                                                                            columnNumber: 23
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             children: [
@@ -762,7 +761,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 247,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                     className: "relative",
@@ -778,20 +777,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 251,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
                                                                                             className: "absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 263,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 250,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 errors.prenom && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                     className: "mt-1 text-sm text-red-500",
@@ -799,19 +798,19 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 265,
-                                                                                    columnNumber: 43
+                                                                                    columnNumber: 49
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 246,
-                                                                            columnNumber: 23
+                                                                            columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 223,
-                                                                    columnNumber: 25
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "grid grid-cols-1 md:grid-cols-2 gap-6",
@@ -825,7 +824,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 271,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                     className: "relative",
@@ -841,20 +840,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 275,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
                                                                                             className: "absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 287,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 274,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 errors.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                     className: "mt-1 text-sm text-red-500",
@@ -862,13 +861,13 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 289,
-                                                                                    columnNumber: 42
+                                                                                    columnNumber: 48
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 270,
-                                                                            columnNumber: 23
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             children: [
@@ -879,7 +878,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 293,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                     className: "relative",
@@ -895,20 +894,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 297,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
                                                                                             className: "absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 309,
-                                                                                            columnNumber: 27
+                                                                                            columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 296,
-                                                                                    columnNumber: 25
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 errors.telephone && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                     className: "mt-1 text-sm text-red-500",
@@ -916,19 +915,19 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 311,
-                                                                                    columnNumber: 46
+                                                                                    columnNumber: 52
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 292,
-                                                                            columnNumber: 23
+                                                                            columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 269,
-                                                                    columnNumber: 23
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     children: [
@@ -939,7 +938,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 316,
-                                                                            columnNumber: 25
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "relative",
@@ -954,20 +953,20 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 320,
-                                                                                    columnNumber: 27
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$briefcase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Briefcase$3e$__["Briefcase"], {
                                                                                     className: "absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 331,
-                                                                                    columnNumber: 27
+                                                                                    columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 319,
-                                                                            columnNumber: 25
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         errors.poste && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                             className: "mt-1 text-sm text-red-500",
@@ -975,13 +974,13 @@ ${formData.prenom} ${formData.nom}`;
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 333,
-                                                                            columnNumber: 42
+                                                                            columnNumber: 46
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 315,
-                                                                    columnNumber: 23
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     children: [
@@ -992,7 +991,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 337,
-                                                                            columnNumber: 25
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                                                                             id: "lettre",
@@ -1004,13 +1003,13 @@ ${formData.prenom} ${formData.nom}`;
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 340,
-                                                                            columnNumber: 25
+                                                                            columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 336,
-                                                                    columnNumber: 23
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     children: [
@@ -1021,7 +1020,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 351,
-                                                                            columnNumber: 25
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("border-2 border-dashed rounded-md p-4 text-center cursor-pointer hover:bg-gray-50 transition-colors", errors.cv ? "border-red-500" : "border-gray-300"),
@@ -1036,7 +1035,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 360,
-                                                                                    columnNumber: 27
+                                                                                    columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                                                     htmlFor: "cv",
@@ -1047,7 +1046,7 @@ ${formData.prenom} ${formData.nom}`;
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 369,
-                                                                                            columnNumber: 29
+                                                                                            columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                             className: "text-sm text-gray-500",
@@ -1055,19 +1054,19 @@ ${formData.prenom} ${formData.nom}`;
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                             lineNumber: 370,
-                                                                                            columnNumber: 29
+                                                                                            columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                                     lineNumber: 368,
-                                                                                    columnNumber: 27
+                                                                                    columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 354,
-                                                                            columnNumber: 25
+                                                                            columnNumber: 29
                                                                         }, this),
                                                                         errors.cv && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                             className: "mt-1 text-sm text-red-500",
@@ -1075,13 +1074,13 @@ ${formData.prenom} ${formData.nom}`;
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                             lineNumber: 373,
-                                                                            columnNumber: 39
+                                                                            columnNumber: 43
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 350,
-                                                                    columnNumber: 23
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 errors.submit && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "mt-1 text-sm text-center text-red-500",
@@ -1089,88 +1088,72 @@ ${formData.prenom} ${formData.nom}`;
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 377,
-                                                                    columnNumber: 25
+                                                                    columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "pt-2",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                         type: "submit",
-                                                                        disabled: isSubmitting,
-                                                                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("w-full bg-[#80C342] text-white py-3 px-6 rounded-md font-medium transition-colors", isSubmitting ? "opacity-70 cursor-not-allowed" : "hover:bg-[#073E5D]"),
-                                                                        children: isSubmitting ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "flex items-center justify-center",
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
-                                                                                    className: "animate-spin mr-2 h-5 w-5"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
-                                                                                    lineNumber: 391,
-                                                                                    columnNumber: 31
-                                                                                }, this),
-                                                                                "Envoi en cours..."
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
-                                                                            lineNumber: 390,
-                                                                            columnNumber: 29
-                                                                        }, this) : "Envoyer ma candidature"
+                                                                        disabled: true,
+                                                                        className: "w-full bg-gray-300 text-gray-600 py-3 px-6 rounded-md font-medium cursor-not-allowed",
+                                                                        children: "Envoyer ma candidature"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                         lineNumber: 381,
-                                                                        columnNumber: 25
+                                                                        columnNumber: 29
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                                     lineNumber: 380,
-                                                                    columnNumber: 23
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$site_ycube$2f$projet$2d$interne$2f$y3$2d$audit$2d$conseils$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$3_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-xs text-gray-500 mt-4",
                                                                     children: "* Champs obligatoires"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
-                                                                    lineNumber: 400,
-                                                                    columnNumber: 23
+                                                                    lineNumber: 390,
+                                                                    columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                             lineNumber: 222,
-                                                            columnNumber: 23
+                                                            columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true)
                                             }, void 0, false, {
                                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                                 lineNumber: 206,
-                                                columnNumber: 17
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                         lineNumber: 170,
-                                        columnNumber: 15
+                                        columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                     lineNumber: 169,
-                                    columnNumber: 13
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                                 lineNumber: 168,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                         lineNumber: 162,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",
                     lineNumber: 161,
-                    columnNumber: 7
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/site_ycube/projet-interne/y3-audit-conseils/app/rejoignez-nous/candidature/page.tsx",

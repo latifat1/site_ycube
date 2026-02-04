@@ -39,7 +39,7 @@ export function Navigation() {
       children: [
         { label: "Nos métiers", href: "/services/nos-metiers" },
         { label: "Audit", href: "/services/audit" },
-        { label: "Expertise comptable", href: "/services/expertise-comptable"},
+        { label: "Expertise comptable", href: "/services/expertise-comptable" },
         { label: "Conseil financier", href: "/services/conseil-financier" },
         { label: "Conseil opérationnel", href: "/services/conseil-operationnel" },
       ],
@@ -51,9 +51,9 @@ export function Navigation() {
     {
       label: "Carrières",
       href: "#",
-        children: [
-          { label: "Candidature spontanée", href: "/rejoignez-nous/candidature" },
-        ],
+      children: [
+        { label: "Candidature spontanée", href: "/rejoignez-nous/candidature" },
+      ],
     },
   ]
 
@@ -103,7 +103,7 @@ export function Navigation() {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 w-full" style={{backgroundImage: `url('${currentImage}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat"}}>
+    <header className="fixed top-0 left-0 right-0 z-50 w-full" style={{ backgroundImage: `url('${currentImage}')`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
       {/* Top Bar */}
       <div className={cn("bg-[#073E5D] text-white transition-all duration-300", scrolled ? "py-3" : "py-4")}>
         <div className="container mx-auto px-4">
@@ -117,9 +117,9 @@ export function Navigation() {
                 <EmailIcon size={14} className="mr-2 text-green-300" />
                 <span>hello@ycubeac.com</span>
               </div>
-              <a 
-                href="https://maps.app.goo.gl/QhNNqo1q4MrjWkpk8" 
-                target="_blank" 
+              <a
+                href="https://maps.app.goo.gl/QhNNqo1q4MrjWkpk8"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:flex items-center text-sm hover:text-[#80C342] transition-colors"
               >
@@ -146,7 +146,7 @@ export function Navigation() {
           <div className="flex justify-between items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="relative w-48 h-24 sm:w-60 sm:h-32 md:w-72 md:h-36">
-                <Image src="/Logo-y3.png" alt="Y3 Audit & Conseils" fill sizes="(max-width: 640px) 192px, (max-width: 768px) 240px, 288px" className="object-contain" priority unoptimized />
+                <Image src="/images/Logo-y3.png" alt="Y3 Audit & Conseils" fill sizes="(max-width: 640px) 192px, (max-width: 768px) 240px, 288px" className="object-contain" priority unoptimized />
               </div>
             </Link>
 
@@ -276,9 +276,9 @@ export function Navigation() {
                   <EmailIcon size={14} className="mr-2 text-green-400" />
                   <span>hello@ycubeac.com</span>
                 </div>
-                <a 
-                  href="https://maps.app.goo.gl/QhNNqo1q4MrjWkpk8" 
-                  target="_blank" 
+                <a
+                  href="https://maps.app.goo.gl/QhNNqo1q4MrjWkpk8"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-sm text-gray-600 hover:text-[#80C342] transition-colors"
                 >
